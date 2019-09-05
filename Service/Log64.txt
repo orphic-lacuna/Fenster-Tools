@@ -1,0 +1,71 @@
+[3713000 ms] ServiceMain, 64-bit
+[0 ms] Set status to SERVICE_START_PENDING
+[0 ms] Before thread start: 0000000000104940
+[0 ms] TMethod.Data: 0000000000104940
+[0 ms] TMethod.Code: 0000000100032C40
+[0 ms] Thread started
+[0 ms] Set status to SERVICE_START_PENDING, Checkpoint 1
+[0 ms] Waiting for End of SvcThread ...
+[0 ms] Set status to SERVICE_START_PENDING, Checkpoint 2
+[0 ms] Creating NamedPipeServer "FT_HELPER_SVC_64"
+[0 ms] Set status to SERVICE_START_PENDING, Checkpoint 3
+[0 ms] Set status to SERVICE_START_PENDING, Checkpoint 4
+[0 ms] Set status to SERVICE_RUNNING
+[0 ms] Entering main loop: 0000000000104940
+[2031 ms] Client connected, verification skipped (DebugMode)
+[0 ms] ProcessUpdate[0 ms] 
+[2047 ms] PipeDataReceived, completed.
+[0 ms] Got a COMMAND: ctPatch
+[0 ms] ProcessUpdate[0 ms] 
+[0 ms] PipeDataWritten, completed.
+[0 ms] ProcessUpdate[0 ms] 
+[0 ms] PipeDataReceived, completed.
+[0 ms] Got a COMMAND: ctPatch
+[0 ms] ProcessUpdate[0 ms] 
+[0 ms] PipeDataWritten, completed.
+[0 ms] ProcessUpdate[0 ms] 
+[62 ms] PipeDataReceived, completed.
+[0 ms] Got a COMMAND: ctPatch
+[0 ms] ProcessUpdate[0 ms] 
+[0 ms] PipeDataWritten, completed.
+[0 ms] ProcessUpdate[0 ms] 
+[16 ms] PipeDataReceived, completed.
+[0 ms] Got a COMMAND: ctPatch
+[0 ms] ProcessUpdate[0 ms] 
+[0 ms] PipeDataWritten, completed.
+[0 ms] ProcessUpdate[0 ms] 
+[0 ms] PipeDataReceived, completed.
+[0 ms] Got a COMMAND: ctPatch
+[0 ms] ProcessUpdate[0 ms] 
+[0 ms] PipeDataWritten, completed.
+[0 ms] ProcessUpdate[0 ms] 
+[0 ms] PipeDataReceived, completed.
+[0 ms] Got a COMMAND: ctPatch
+[0 ms] ProcessUpdate[0 ms] 
+[0 ms] PipeDataWritten, completed.
+[0 ms] ProcessUpdate[0 ms] 
+[0 ms] PipeDataReceived, completed.
+[0 ms] Got a COMMAND: ctPatch
+[0 ms] ProcessUpdate[0 ms] 
+[0 ms] PipeDataWritten, completed.
+[0 ms] ProcessUpdate[0 ms] 
+[0 ms] PipeDataReceived, completed.
+[0 ms] Got a COMMAND: ctPatch
+[0 ms] ProcessUpdate[0 ms] 
+[0 ms] PipeDataWritten, completed.
+[0 ms] ProcessUpdate[0 ms] 
+[15 ms] PipeDataReceived, completed.
+[0 ms] Got a COMMAND: ctPatch
+[0 ms] ProcessUpdate[0 ms] 
+[0 ms] PipeDataWritten, completed.
+[0 ms] ProcessUpdate[0 ms] 
+[0 ms] PipeDataReceived, completed.
+[0 ms] Got a COMMAND: ctPatch
+[0 ms] ProcessUpdate[0 ms] 
+[0 ms] PipeDataWritten, completed.
+[0 ms] ProcessUpdate[0 ms] 
+[12204 ms] PipeDataReceived, failed. This instance will quit now.
+[0 ms] ProcessUpdate[0 ms] 
+[0 ms] SvcMain ende
+[0 ms] SvcThread ended
+[0 ms] Set status to SERVICE_STOPPED

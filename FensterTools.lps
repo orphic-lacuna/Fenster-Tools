@@ -1,0 +1,1321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Debug"/>
+    <Units Count="141">
+      <Unit0>
+        <Filename Value="FensterTools.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="78"/>
+        <CursorPos X="28" Y="83"/>
+        <UsageCount Value="228"/>
+        <Bookmarks Count="1">
+          <Item0 X="28" Y="83" ID="4"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frm_Settings"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="259"/>
+        <CursorPos X="76" Y="358"/>
+        <UsageCount Value="228"/>
+        <Bookmarks Count="1">
+          <Item0 Y="278" ID="3"/>
+        </Bookmarks>
+      </Unit1>
+      <Unit2>
+        <Filename Value="FensterToolsCommon.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="57"/>
+        <CursorPos X="3" Y="73"/>
+        <UsageCount Value="274"/>
+        <Bookmarks Count="1">
+          <Item0 X="33" Y="555" ID="5"/>
+        </Bookmarks>
+      </Unit2>
+      <Unit3>
+        <Filename Value="AdminCheck.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="375"/>
+        <CursorPos X="10" Y="192"/>
+        <UsageCount Value="261"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="MouseHook\KineticScrolling.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="465"/>
+        <CursorPos X="23" Y="481"/>
+        <UsageCount Value="241"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="Patcher\LivePatching.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="45"/>
+        <CursorPos X="23" Y="73"/>
+        <UsageCount Value="237"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="ShellNotification.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="15" Y="7"/>
+        <UsageCount Value="237"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="Replacer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="96"/>
+        <CursorPos X="71" Y="9"/>
+        <UsageCount Value="237"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="Textfenster.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="402"/>
+        <CursorPos X="14" Y="133"/>
+        <UsageCount Value="236"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="Regeleditor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frm_Regeleditor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="28"/>
+        <CursorPos X="64" Y="43"/>
+        <UsageCount Value="202"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="Logging.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="156"/>
+        <CursorPos X="18" Y="170"/>
+        <UsageCount Value="329"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="DebugConsole.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frm_DebugConsole"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2"/>
+        <CursorPos X="3" Y="8"/>
+        <UsageCount Value="329"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="Manifest.rc"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="20"/>
+        <UsageCount Value="253"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="WindowManager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="250"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="ApplicationRestart.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="49"/>
+        <CursorPos X="29" Y="68"/>
+        <UsageCount Value="228"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="Settings\SettingsBaseTypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="349"/>
+        <CursorPos X="61" Y="369"/>
+        <UsageCount Value="202"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="Settings\SettingsBase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="19"/>
+        <CursorPos X="3" Y="35"/>
+        <UsageCount Value="200"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="Settings\SettingsManager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="332"/>
+        <CursorPos Y="369"/>
+        <UsageCount Value="200"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\..\LibsForLaz\PropertyList.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="12" Y="137"/>
+        <UsageCount Value="200"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="Settings\DefaultConfig.json.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="328"/>
+        <CursorPos X="31" Y="348"/>
+        <UsageCount Value="201"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="Settings\DefaultConfig.rc"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="28" Y="2"/>
+        <UsageCount Value="201"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="Settings\SettingsBoundaries.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="21"/>
+        <CursorPos X="20" Y="37"/>
+        <UsageCount Value="200"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="serviceconnection.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ServiceConnection"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="75"/>
+        <CursorPos X="26" Y="102"/>
+        <UsageCount Value="221"/>
+        <Loaded Value="True"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="UpdateCheck.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="473"/>
+        <CursorPos X="32" Y="495"/>
+        <UsageCount Value="217"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="Service\UpdateInformation.inc"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="51" Y="2"/>
+        <UsageCount Value="214"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\..\LibsForLaz\ToolBox.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="101"/>
+        <CursorPos X="10" Y="117"/>
+        <UsageCount Value="202"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="Service\HelperSvcDefinitions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="23"/>
+        <CursorPos X="22" Y="29"/>
+        <UsageCount Value="214"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="..\..\LibsForLaz\AsyncHTTPRequest.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="10"/>
+        <UsageCount Value="206"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="KeyPatternMatching.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="15"/>
+        <TopLine Value="250"/>
+        <CursorPos X="27" Y="254"/>
+        <UsageCount Value="304"/>
+        <Loaded Value="True"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="mousebehaviour.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="MouseBehaviour"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="59"/>
+        <CursorPos X="48" Y="80"/>
+        <UsageCount Value="210"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="Direct2D\Header\DX12.D2D1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="543"/>
+        <CursorPos X="22" Y="559"/>
+        <UsageCount Value="283"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="Direct2D\Header\DX12.D2D1_3.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="Direct2D\Header\DX12.D2D1Effects2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="Direct2D\Header\DX12.D3D10.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="Direct2D\Header\DX12.D3D10_1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="Direct2D\Header\DX12.D3D11.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="Direct2D\Header\DX12.D3D11_1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="Direct2D\Header\DX12.D3D11_2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="Direct2D\Header\DX12.D3D11_3.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="Direct2D\Header\DX12.D3D11On12.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="Direct2D\Header\DX12.D3D12.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="Direct2D\Header\DX12.D3D12SDKLayers.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="Direct2D\Header\DX12.D3D12Shader.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="Direct2D\Header\DX12.D3DCommon.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="Direct2D\Header\DX12.D3DCompiler.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="Direct2D\Header\DX12.D3DCSX.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="Direct2D\Header\DX12.D3DX10.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="Direct2D\Header\DX12.D3DX11.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="Direct2D\Header\DX12.DCommon.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="21" Y="22"/>
+        <UsageCount Value="283"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="Direct2D\Header\DX12.DocumentTarget.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="Direct2D\Header\DX12.DWrite.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1456"/>
+        <CursorPos X="18" Y="1471"/>
+        <UsageCount Value="283"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="Direct2D\Header\DX12.DWrite3.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="Direct2D\Header\DX12.DXGI.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="254"/>
+        <CursorPos X="5" Y="271"/>
+        <UsageCount Value="283"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="Direct2D\Header\DX12.DXGI1_2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="Direct2D\Header\DX12.DXGI1_3.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="Direct2D\Header\DX12.DXGI1_4.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="Direct2D\Header\DX12.DXGIDebug.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="Direct2D\Header\DX12.DXGIMessages.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="Direct2D\Header\DX12.DXProgrammableCapture.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="Direct2D\Header\DX12.OCIdl.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="283"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="Direct2D\Header\DX12.WinCodec.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1128"/>
+        <CursorPos X="18" Y="1143"/>
+        <UsageCount Value="283"/>
+      </Unit60>
+      <Unit61>
+        <Filename Value="Direct2D\Direct2DRenderer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="11"/>
+        <TopLine Value="139"/>
+        <CursorPos X="3" Y="14"/>
+        <UsageCount Value="283"/>
+        <Loaded Value="True"/>
+      </Unit61>
+      <Unit62>
+        <Filename Value="ClipboardWindow\ClipboardWindow.Entry.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="152"/>
+        <CursorPos X="89" Y="25"/>
+        <UsageCount Value="283"/>
+        <Loaded Value="True"/>
+      </Unit62>
+      <Unit63>
+        <Filename Value="ClipboardWindow\ClipboardWindow.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="300"/>
+        <CursorPos X="21" Y="328"/>
+        <UsageCount Value="283"/>
+        <Loaded Value="True"/>
+      </Unit63>
+      <Unit64>
+        <Filename Value="ClipboardWindow\ClipboardWindow.Renderer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="303"/>
+        <CursorPos X="25" Y="307"/>
+        <UsageCount Value="283"/>
+        <Bookmarks Count="1">
+          <Item0 X="16" Y="268" ID="6"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="ClipboardWindow\ParametricAnimation.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="parametricanimation"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="27"/>
+        <CursorPos X="14" Y="111"/>
+        <UsageCount Value="283"/>
+      </Unit65>
+      <Unit66>
+        <Filename Value="Clipboard\Clipboard.Formats.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="263"/>
+        <CursorPos X="40" Y="277"/>
+        <UsageCount Value="272"/>
+      </Unit66>
+      <Unit67>
+        <Filename Value="Clipboard\Clipboard.List.pas"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="503"/>
+        <CursorPos X="35" Y="508"/>
+        <UsageCount Value="272"/>
+        <Loaded Value="True"/>
+      </Unit67>
+      <Unit68>
+        <Filename Value="Clipboard\Clipboard.Notifications.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="114"/>
+        <CursorPos X="48" Y="121"/>
+        <UsageCount Value="272"/>
+      </Unit68>
+      <Unit69>
+        <Filename Value="Clipboard\LinkedLists.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="106"/>
+        <CursorPos Y="122"/>
+        <UsageCount Value="272"/>
+      </Unit69>
+      <Unit70>
+        <Filename Value="Clipboard\Clipboard.Manager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="29" Y="26"/>
+        <UsageCount Value="271"/>
+        <Loaded Value="True"/>
+      </Unit70>
+      <Unit71>
+        <Filename Value="Clipboard\Clipboard.Item.Header.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="32"/>
+        <CursorPos X="92" Y="47"/>
+        <UsageCount Value="267"/>
+      </Unit71>
+      <Unit72>
+        <Filename Value="Clipboard\Clipboard.Item.Body.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="72"/>
+        <CursorPos X="27" Y="91"/>
+        <UsageCount Value="267"/>
+      </Unit72>
+      <Unit73>
+        <Filename Value="Plan_für_Hotkeys.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="14"/>
+        <CursorPos X="58" Y="21"/>
+        <UsageCount Value="248"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit73>
+      <Unit74>
+        <Filename Value="Hotkeys\Hotkey.Actions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="46"/>
+        <CursorPos X="19" Y="61"/>
+        <UsageCount Value="247"/>
+      </Unit74>
+      <Unit75>
+        <Filename Value="Hotkeys\Hotkey.Manager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="97"/>
+        <CursorPos X="35" Y="128"/>
+        <UsageCount Value="246"/>
+      </Unit75>
+      <Unit76>
+        <Filename Value="Hotkeys\Hotkey.List.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9"/>
+        <CursorPos X="34" Y="42"/>
+        <UsageCount Value="244"/>
+      </Unit76>
+      <Unit77>
+        <Filename Value="..\..\LibsForLaz\ThreadCollections.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="30" Y="8"/>
+        <UsageCount Value="244"/>
+      </Unit77>
+      <Unit78>
+        <Filename Value="ClipboardInspector\ClipboardInspector.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frm_ClipboardInspector"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="38"/>
+        <CursorPos X="39" Y="57"/>
+        <UsageCount Value="206"/>
+      </Unit78>
+      <Unit79>
+        <Filename Value="ClipboardWindow\BasicWindow.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="119"/>
+        <CursorPos X="3" Y="158"/>
+        <UsageCount Value="231"/>
+        <Loaded Value="True"/>
+      </Unit79>
+      <Unit80>
+        <Filename Value="ClipboardWindow\AppFileInfo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="28"/>
+        <CursorPos X="39" Y="37"/>
+        <UsageCount Value="233"/>
+      </Unit80>
+      <Unit81>
+        <Filename Value="ClipboardWindow\ClipboardWindow.RenderingInfo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6"/>
+        <CursorPos X="33" Y="8"/>
+        <UsageCount Value="256"/>
+      </Unit81>
+      <Unit82>
+        <Filename Value="ClipboardWindow\BasicAnimatedWindow.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="9"/>
+        <CursorPos X="37" Y="18"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit82>
+      <Unit83>
+        <Filename Value="Direct2D\LayeredWindowRenderer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="12"/>
+        <TopLine Value="32"/>
+        <CursorPos X="89" Y="45"/>
+        <UsageCount Value="207"/>
+        <Loaded Value="True"/>
+      </Unit83>
+      <Unit84>
+        <Filename Value="ClipboardWindow\ClipboardStatusWindow.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="13"/>
+        <CursorPos X="104" Y="12"/>
+        <UsageCount Value="205"/>
+        <Loaded Value="True"/>
+      </Unit84>
+      <Unit85>
+        <Filename Value="ClipboardWindow\ClipboardStatusWindow.Renderer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="13"/>
+        <TopLine Value="20"/>
+        <CursorPos X="3" Y="54"/>
+        <UsageCount Value="205"/>
+        <Loaded Value="True"/>
+      </Unit85>
+      <Unit86>
+        <Filename Value="ClipboardWindow\ClipboardWindow.Settings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="27"/>
+        <CursorPos X="13" Y="53"/>
+        <UsageCount Value="260"/>
+        <Loaded Value="True"/>
+      </Unit86>
+      <Unit87>
+        <Filename Value="Settings\SettingsDerivedBaseTypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="55" Y="8"/>
+        <UsageCount Value="250"/>
+      </Unit87>
+      <Unit88>
+        <Filename Value="ClipboardWindow\ClipboardStatusWindow.Settings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="10"/>
+        <CursorPos X="15" Y="20"/>
+        <UsageCount Value="116"/>
+        <Loaded Value="True"/>
+      </Unit88>
+      <Unit89>
+        <Filename Value="AdvancedHotkeyHandler.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="20" Y="6"/>
+        <ExtraEditorCount Value="2"/>
+        <ExtraEditor1>
+          <EditorIndex Value="-1"/>
+          <TopLine Value="292"/>
+          <CursorPos X="20" Y="315"/>
+        </ExtraEditor1>
+        <ExtraEditor2>
+          <EditorIndex Value="-1"/>
+          <TopLine Value="277"/>
+          <CursorPos Y="197"/>
+        </ExtraEditor2>
+        <UsageCount Value="137"/>
+      </Unit89>
+      <Unit90>
+        <Filename Value="Clipboard\Clipboard.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="144"/>
+      </Unit90>
+      <Unit91>
+        <Filename Value="Clipboard\ExtendedClipboard.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="881"/>
+        <CursorPos Y="193"/>
+        <UsageCount Value="146"/>
+      </Unit91>
+      <Unit92>
+        <Filename Value="Clipboard\ChainedList.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="236"/>
+        <CursorPos Y="255"/>
+        <UsageCount Value="144"/>
+      </Unit92>
+      <Unit93>
+        <Filename Value="Clipboard\ClipboardStack.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="169"/>
+        <CursorPos X="44" Y="184"/>
+        <UsageCount Value="144"/>
+      </Unit93>
+      <Unit94>
+        <Filename Value="ExtendedWinapi.pas"/>
+        <UnitName Value="ExtendedWinAPI"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1825"/>
+        <CursorPos X="3" Y="1827"/>
+        <UsageCount Value="160"/>
+      </Unit94>
+      <Unit95>
+        <Filename Value="UserInputProvider.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="170"/>
+        <CursorPos X="65" Y="198"/>
+        <UsageCount Value="38"/>
+      </Unit95>
+      <Unit96>
+        <Filename Value="MouseHook\MouseHook.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="169"/>
+        <CursorPos X="21" Y="184"/>
+        <UsageCount Value="133"/>
+      </Unit96>
+      <Unit97>
+        <Filename Value="KeyboardHook.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="36"/>
+        <CursorPos X="22" Y="56"/>
+        <UsageCount Value="118"/>
+      </Unit97>
+      <Unit98>
+        <Filename Value="Patcher\PatchFunctions.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="139" Y="227"/>
+        <UsageCount Value="90"/>
+      </Unit98>
+      <Unit99>
+        <Filename Value="DefaultConfig.json.txt"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="84" Y="31"/>
+        <UsageCount Value="57"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit99>
+      <Unit100>
+        <Filename Value="DefaultConfig.rc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="25" Y="2"/>
+        <UsageCount Value="55"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit100>
+      <Unit101>
+        <Filename Value="SettingsManager.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3"/>
+        <CursorPos X="114" Y="8"/>
+        <UsageCount Value="57"/>
+      </Unit101>
+      <Unit102>
+        <Filename Value="SettingsBase.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="293"/>
+        <CursorPos X="67" Y="304"/>
+        <UsageCount Value="95"/>
+      </Unit102>
+      <Unit103>
+        <Filename Value="PropertyList.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="123"/>
+        <CursorPos Y="140"/>
+        <UsageCount Value="9"/>
+      </Unit103>
+      <Unit104>
+        <Filename Value="settingsmanager2.pas"/>
+        <CursorPos X="21"/>
+        <UsageCount Value="40"/>
+      </Unit104>
+      <Unit105>
+        <Filename Value="settingsbasewrapper.pas"/>
+        <CursorPos X="10" Y="5"/>
+        <UsageCount Value="68"/>
+      </Unit105>
+      <Unit106>
+        <Filename Value="settingsbasederivatives.pas"/>
+        <CursorPos Y="66"/>
+        <UsageCount Value="25"/>
+      </Unit106>
+      <Unit107>
+        <Filename Value="C:\lazarus\fpc\2.6.4\source\packages\fcl-json\src\fpjsonrtti.pp"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="88" Y="12"/>
+        <UsageCount Value="10"/>
+      </Unit107>
+      <Unit108>
+        <Filename Value="C:\lazarus\fpc\2.6.4\source\packages\fcl-json\src\fpjson.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="92"/>
+        <CursorPos X="22" Y="100"/>
+        <UsageCount Value="21"/>
+      </Unit108>
+      <Unit109>
+        <Filename Value="..\..\LibsForLaz\FensterToolsControlsLazarus\hotkey.pas"/>
+        <UnitName Value="Hotkey"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="638"/>
+        <CursorPos X="3" Y="447"/>
+        <UsageCount Value="95"/>
+      </Unit109>
+      <Unit110>
+        <Filename Value="..\..\LibsForLaz\FensterToolsControlsLazarus\ReplaceList.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="66"/>
+        <CursorPos X="3" Y="77"/>
+        <UsageCount Value="90"/>
+      </Unit110>
+      <Unit111>
+        <Filename Value="..\..\LibsForLaz\PCRE2\pcre.pas"/>
+        <UnitName Value="PCRE"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="249"/>
+        <UsageCount Value="6"/>
+      </Unit111>
+      <Unit112>
+        <Filename Value="..\..\LibsForLaz\FensterToolsControlsLazarus\hotkey_keybrdhook.pas"/>
+        <UnitName Value="Hotkey_KeybrdHook"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="106"/>
+        <CursorPos X="105" Y="131"/>
+        <UsageCount Value="6"/>
+      </Unit112>
+      <Unit113>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3269"/>
+        <CursorPos Y="3278"/>
+        <UsageCount Value="10"/>
+      </Unit113>
+      <Unit114>
+        <Filename Value="C:\lazarus\fpc\2.6.4\source\rtl\objpas\sysutils\sysutils.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="147"/>
+        <CursorPos X="9" Y="151"/>
+        <UsageCount Value="22"/>
+      </Unit114>
+      <Unit115>
+        <Filename Value="C:\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="575"/>
+        <CursorPos X="15" Y="586"/>
+        <UsageCount Value="7"/>
+      </Unit115>
+      <Unit116>
+        <Filename Value="..\..\LibsForLaz\NamedPipes.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="239"/>
+        <CursorPos X="3" Y="248"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit116>
+      <Unit117>
+        <Filename Value="..\..\LibsForLaz\ProxyAutoDetection.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="114"/>
+        <CursorPos Y="138"/>
+        <UsageCount Value="4"/>
+      </Unit117>
+      <Unit118>
+        <Filename Value="..\..\LibsForLaz\ExtendedThreads.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="345"/>
+        <CursorPos X="26" Y="361"/>
+        <UsageCount Value="94"/>
+        <Bookmarks Count="1">
+          <Item0 X="17" Y="332" ID="8"/>
+        </Bookmarks>
+      </Unit118>
+      <Unit119>
+        <Filename Value="..\..\LibsForLaz\WindowedThreadEx.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="32" Y="9"/>
+        <UsageCount Value="58"/>
+      </Unit119>
+      <Unit120>
+        <Filename Value="..\..\LibsForLaz\FensterToolsControlsLazarus\ExtendedWinapi.pas"/>
+        <UnitName Value="ExtendedWinAPI"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1820"/>
+        <CursorPos Y="1843"/>
+        <UsageCount Value="8"/>
+      </Unit120>
+      <Unit121>
+        <Filename Value="..\..\LibsForLaz\SlimReaderWriterLock.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="16"/>
+        <UsageCount Value="1"/>
+      </Unit121>
+      <Unit122>
+        <Filename Value="C:\lazarus1.6\fpc\3.0.0\source\rtl\objpas\fgl.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="100"/>
+        <CursorPos X="11" Y="110"/>
+        <UsageCount Value="91"/>
+      </Unit122>
+      <Unit123>
+        <Filename Value="C:\lazarus1.6\fpc\3.0.0\source\rtl\inc\objpash.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="177"/>
+        <CursorPos X="23" Y="193"/>
+        <UsageCount Value="1"/>
+      </Unit123>
+      <Unit124>
+        <Filename Value="C:\lazarus1.6\fpc\3.0.0\source\packages\winunits-base\src\dwmapi.pp"/>
+        <UnitName Value="DwmApi"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="428"/>
+        <CursorPos X="3" Y="426"/>
+        <UsageCount Value="25"/>
+      </Unit124>
+      <Unit125>
+        <Filename Value="C:\lazarus1.6\fpc\3.0.0\source\rtl\win\sysosh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="17"/>
+        <CursorPos X="3" Y="33"/>
+        <UsageCount Value="55"/>
+      </Unit125>
+      <Unit126>
+        <Filename Value="Service\logging.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="91"/>
+      </Unit126>
+      <Unit127>
+        <Filename Value="C:\lazarus1.6\fpc\3.0.0\source\packages\sdl\src\logger.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="90"/>
+      </Unit127>
+      <Unit128>
+        <Filename Value="C:\lazarus1.6\fpc\3.0.0\source\rtl\win\wininc\redef.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="37"/>
+        <CursorPos X="25" Y="53"/>
+        <UsageCount Value="90"/>
+      </Unit128>
+      <Unit129>
+        <Filename Value="C:\lazarus1.6\fpc\3.0.0\source\packages\winunits-base\src\comobj.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="304"/>
+        <CursorPos X="7" Y="320"/>
+        <UsageCount Value="89"/>
+      </Unit129>
+      <Unit130>
+        <Filename Value="C:\lazarus1.6\fpc\3.0.0\source\packages\winunits-base\src\activex.pp"/>
+        <UnitName Value="ActiveX"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4460"/>
+        <CursorPos Y="4476"/>
+        <UsageCount Value="89"/>
+      </Unit130>
+      <Unit131>
+        <Filename Value="C:\lazarus1.6\fpc\3.0.0\source\rtl\objpas\classes\classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="236"/>
+        <CursorPos X="16" Y="258"/>
+        <UsageCount Value="73"/>
+      </Unit131>
+      <Unit132>
+        <Filename Value="C:\lazarus1.6\fpc\3.0.0\source\packages\fcl-json\src\fpjsonrtti.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="305"/>
+        <CursorPos Y="309"/>
+        <UsageCount Value="73"/>
+      </Unit132>
+      <Unit133>
+        <Filename Value="..\..\LibsForLaz\FensterToolsControlsLazarus\dpiawareform.pas"/>
+        <UnitName Value="DPIAwareForm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="208"/>
+        <CursorPos X="18" Y="83"/>
+        <UsageCount Value="71"/>
+      </Unit133>
+      <Unit134>
+        <Filename Value="..\..\LibsForLaz\FensterToolsControlsLazarus\ChangeHandler.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="19"/>
+        <CursorPos X="15" Y="35"/>
+        <UsageCount Value="71"/>
+      </Unit134>
+      <Unit135>
+        <Filename Value="C:\lazarus1.6\fpc\3.0.0\source\rtl\objpas\classes\lists.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="272"/>
+        <CursorPos X="3" Y="279"/>
+        <UsageCount Value="62"/>
+      </Unit135>
+      <Unit136>
+        <Filename Value="..\..\LibsForLaz\FensterToolsControlsLazarus\PowerNotification.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="70"/>
+      </Unit136>
+      <Unit137>
+        <Filename Value="..\..\LibsForLaz\FensterToolsControlsLazarus\UserInputProvider.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="336"/>
+        <CursorPos X="3" Y="368"/>
+        <UsageCount Value="16"/>
+      </Unit137>
+      <Unit138>
+        <Filename Value="C:\lazarus1.6\fpc\3.0.0\source\rtl\inc\objpas.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="275"/>
+        <CursorPos X="9" Y="277"/>
+        <UsageCount Value="1"/>
+      </Unit138>
+      <Unit139>
+        <Filename Value="Service\toolboxservices.pas"/>
+        <UnitName Value="ToolBoxServices"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="3" Y="44"/>
+        <UsageCount Value="9"/>
+      </Unit139>
+      <Unit140>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\fgl.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1299"/>
+        <CursorPos Y="1313"/>
+        <UsageCount Value="7"/>
+      </Unit140>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="1"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="ClipboardWindow\ClipboardWindow.pas"/>
+        <Caret Line="257" Column="24" TopLine="242"/>
+      </Position1>
+      <Position2>
+        <Filename Value="ClipboardWindow\ClipboardStatusWindow.pas"/>
+        <Caret Line="25" Column="33" TopLine="13"/>
+      </Position2>
+      <Position3>
+        <Filename Value="ClipboardWindow\ClipboardWindow.pas"/>
+        <Caret Line="32" Column="22" TopLine="15"/>
+      </Position3>
+      <Position4>
+        <Filename Value="ClipboardWindow\ClipboardStatusWindow.pas"/>
+        <Caret Line="32" Column="5" TopLine="10"/>
+      </Position4>
+      <Position5>
+        <Filename Value="ClipboardWindow\ClipboardStatusWindow.pas"/>
+        <Caret Line="18" Column="49" TopLine="10"/>
+      </Position5>
+      <Position6>
+        <Filename Value="ClipboardWindow\BasicAnimatedWindow.pas"/>
+        <Caret Line="18" Column="37"/>
+      </Position6>
+      <Position7>
+        <Filename Value="ClipboardWindow\BasicWindow.pas"/>
+        <Caret Line="31" Column="3"/>
+      </Position7>
+      <Position8>
+        <Filename Value="ClipboardWindow\ClipboardWindow.pas"/>
+        <Caret Line="47" Column="23" TopLine="23"/>
+      </Position8>
+      <Position9>
+        <Filename Value="ClipboardWindow\ClipboardWindow.pas"/>
+        <Caret Line="90" TopLine="76"/>
+      </Position9>
+      <Position10>
+        <Filename Value="ClipboardWindow\ClipboardWindow.Renderer.pas"/>
+        <Caret Line="36" Column="14" TopLine="22"/>
+      </Position10>
+      <Position11>
+        <Filename Value="ClipboardWindow\ClipboardWindow.Renderer.pas"/>
+        <Caret Line="34" Column="18" TopLine="21"/>
+      </Position11>
+      <Position12>
+        <Filename Value="ClipboardWindow\ClipboardWindow.Settings.pas"/>
+        <Caret Line="38" Column="37" TopLine="27"/>
+      </Position12>
+      <Position13>
+        <Filename Value="ClipboardWindow\ClipboardStatusWindow.Settings.pas"/>
+        <Caret Line="9" Column="19"/>
+      </Position13>
+      <Position14>
+        <Filename Value="ClipboardWindow\ClipboardStatusWindow.pas"/>
+        <Caret Line="12" Column="104" TopLine="4"/>
+      </Position14>
+      <Position15>
+        <Filename Value="ClipboardWindow\ClipboardStatusWindow.Renderer.pas"/>
+        <Caret Line="27" Column="21"/>
+      </Position15>
+      <Position16>
+        <Filename Value="ClipboardWindow\ClipboardStatusWindow.Renderer.pas"/>
+        <Caret Line="51" Column="32" TopLine="19"/>
+      </Position16>
+      <Position17>
+        <Filename Value="ClipboardWindow\ClipboardWindow.pas"/>
+        <Caret Line="58" Column="21" TopLine="18"/>
+      </Position17>
+      <Position18>
+        <Filename Value="serviceconnection.pas"/>
+        <Caret Line="23" Column="11" TopLine="8"/>
+      </Position18>
+      <Position19>
+        <Filename Value="serviceconnection.pas"/>
+        <Caret Line="91" Column="52" TopLine="78"/>
+      </Position19>
+      <Position20>
+        <Filename Value="serviceconnection.pas"/>
+        <Caret Line="121" Column="11" TopLine="95"/>
+      </Position20>
+      <Position21>
+        <Filename Value="serviceconnection.pas"/>
+        <Caret Line="123" Column="40" TopLine="95"/>
+      </Position21>
+      <Position22>
+        <Filename Value="serviceconnection.pas"/>
+        <Caret Line="33" Column="23" TopLine="11"/>
+      </Position22>
+      <Position23>
+        <Filename Value="serviceconnection.pas"/>
+        <Caret Line="245" Column="39" TopLine="227"/>
+      </Position23>
+      <Position24>
+        <Filename Value="serviceconnection.pas"/>
+        <Caret Line="148" Column="12" TopLine="128"/>
+      </Position24>
+      <Position25>
+        <Filename Value="serviceconnection.pas"/>
+        <Caret Line="152" Column="10" TopLine="128"/>
+      </Position25>
+      <Position26>
+        <Filename Value="serviceconnection.pas"/>
+        <Caret Line="159" Column="10" TopLine="128"/>
+      </Position26>
+      <Position27>
+        <Filename Value="serviceconnection.pas"/>
+        <Caret Line="163" Column="8" TopLine="128"/>
+      </Position27>
+      <Position28>
+        <Filename Value="serviceconnection.pas"/>
+        <Caret Line="157" Column="22" TopLine="128"/>
+      </Position28>
+      <Position29>
+        <Filename Value="serviceconnection.pas"/>
+        <Caret Line="102" Column="26" TopLine="75"/>
+      </Position29>
+      <Position30>
+        <Filename Value="..\..\LibsForLaz\NamedPipes.pas"/>
+        <Caret Line="65" Column="16" TopLine="41"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="3">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="Patcher\PatchFunctions.pas"/>
+        <Line Value="294"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="Patcher\PatchFunctions.pas"/>
+        <Line Value="309"/>
+      </Item2>
+      <Item3>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="Clipboard\ClipboardStack.pas"/>
+        <Line Value="138"/>
+      </Item3>
+    </BreakPoints>
+    <Watches Count="3">
+      <Item1>
+        <Expression Value="Result"/>
+        <DisplayStyle Value="wdfString"/>
+      </Item1>
+      <Item2>
+        <Expression Value="Result"/>
+        <DisplayStyle Value="wdfMemDump"/>
+      </Item2>
+      <Item3>
+        <Expression Value="BGRABitmapTypes"/>
+      </Item3>
+    </Watches>
+  </Debugging>
+</CONFIG>

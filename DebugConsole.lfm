@@ -1,0 +1,30 @@
+object frm_DebugConsole: Tfrm_DebugConsole
+  Left = 370
+  Height = 409
+  Top = 130
+  Width = 726
+  Caption = 'FensterTools Debug Console'
+  ClientHeight = 409
+  ClientWidth = 726
+  OnCloseQuery = FormCloseQuery
+  OnResize = FormResize
+  OnShow = FormShow
+  LCLVersion = '1.6.0.4'
+  object Memo1: TMemo
+    Left = 0
+    Height = 409
+    Top = 0
+    Width = 726
+    Align = alClient
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Lucida Console'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    OnKeyDown = Memo1KeyDown
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssBoth
+    TabOrder = 0
+  end
+end

@@ -1,0 +1,359 @@
+{
+  "Update" : {
+    "Mode" :  {
+      "Default": 0,
+      "AllowedValues": [0,1,2]
+    },
+    "Interval" : {
+      "Default": 1,
+      "Min": 1,
+      "Max": 60
+    },
+    "LastCheck" : {
+      "Default": 0.0,
+      "Min": 0.0
+    }
+  },
+  "Autostart" : true,
+  "Clipboard" : {
+    "AutoReplace" : true,
+    "AutoInsert" : false,
+    "EnableClipboardExtension" : true,
+    "MaxEntryCount" : {
+      "Default": 50,
+      "Min": 1,
+      "Max": 1000
+    },
+    "MaxMenuEntryLength" : {
+      "Default": 50,
+      "Min": 10,
+      "Max": 1000
+    },
+    "ReadDelay" : {
+        "Default": 200,
+        "Min": 100,
+        "Max": 1500
+      },
+    "PasteEventDelay" : {
+      "Default": 500,
+      "Min": 100,
+      "Max": 3000
+    },
+    "PasteEventDeadTimeAfterCopy" : {
+      "Default": 800,
+      "Min": 100,
+      "Max": 3000
+    },
+    "ReplaceList" : [
+      {
+        "CaseSensitive" : false,
+        "IsRegEx" : true,
+        "LookFor" : "# Extrahiere Email-Adresse, wenn nur wenige Zeichen drumherum\r\n^\\N{0,10}?(?'EMAIL'[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+(?:[A-Z]{2,4}|museum))($|\\s+)\\N{0,10}$",
+        "Name" : "Email-Adresse extrahieren",
+        "ReplaceWith" : "${EMAIL}"
+      }
+    ],
+    "RestoreAfterReboot" : true,
+    "StandardCopyMode" : {
+      "Default": 0,
+      "AllowedValues": [0,1,2,3]
+    },
+    "TimeLimitForDoubleCopy": {
+      "Default": 1750,
+      "Min": 50,
+      "Max": 5000
+    },
+    "TimeLimitCopyBlock": {
+      "Default": 10000,
+      "Min": 500,
+      "Max": 3600000
+    },
+    "TimeLimitInsertCopyBlock": {
+      "Default": 60000,
+      "Min": 1000,
+      "Max": 60480000
+    },
+    "Window" : {
+      "Position": {
+        "Left": {
+          "Default": 0.25,
+          "Min": 0.0,
+          "Max": 1.0
+        },
+        "Top": {
+          "Default": 0.359375,
+          "Min": 0.0,
+          "Max": 1.0
+        },
+        "Right": {
+          "Default": 0.7,
+          "Min": 0.0,
+          "Max": 1.0
+        },
+        "Bottom": {
+          "Default":0.640625,
+          "Min": 0.0,
+          "Max": 1.0
+        }
+      },
+      "BackgroundColor" : {
+        "Red": {
+			"Default": 0,
+			"Min": 0.0,
+			"Max": 1.0		
+		},
+        "Green": {
+			"Default": 0.0,
+			"Min": 0.0,
+			"Max": 1.0		
+		},
+        "Blue": {
+			"Default": 0.0,
+			"Min": 0.0,
+			"Max": 1.0		
+		},
+        "Alpha": {
+			"Default": 0.0,
+			"Min": 0.0,
+			"Max": 1.0		
+		}
+      },
+	  "EntryBackgroundColor" : {
+        "Red": {
+			"Default": 0.0,
+			"Min": 0.0,
+			"Max": 1.0		
+		},
+        "Green": {
+			"Default": 0.0,
+			"Min": 0.0,
+			"Max": 1.0		
+		},
+        "Blue": {
+			"Default": 0.0,
+			"Min": 0.0,
+			"Max": 1.0		
+		},
+        "Alpha": {
+			"Default": 0.55,
+			"Min": 0.0,
+			"Max": 1.0		
+		}
+      },
+	  "EntryFont" : "Segoe UI",
+	  "TimestampFont" : "Segoe UI",
+	  "EntryFontsize" : {
+			"Default": 18
+	  },
+	  "TimestampFontsize" : {
+			"Default": 11
+	  },
+	  "EntryFontColor" : {
+        "Red": {
+			"Default": 1.0,
+			"Min": 0.0,
+			"Max": 1.0		
+		},
+        "Green": {
+			"Default": 1.0,
+			"Min": 0.0,
+			"Max": 1.0		
+		},
+        "Blue": {
+			"Default": 1.0,
+			"Min": 0.0,
+			"Max": 1.0		
+		},
+        "Alpha": {
+			"Default": 1.0,
+			"Min": 0.0,
+			"Max": 1.0		
+		}
+      },
+	  "TimestampFontColor" : {
+        "Red": {
+			"Default": 1.0,
+			"Min": 0.0,
+			"Max": 1.0		
+		},
+        "Green": {
+			"Default": 1.0,
+			"Min": 0.0,
+			"Max": 1.0		
+		},
+        "Blue": {
+			"Default": 1.0,
+			"Min": 0.0,
+			"Max": 1.0		
+		},
+        "Alpha": {
+			"Default": 1.0,
+			"Min": 0.0,
+			"Max": 1.0		
+		}
+      },
+      "DefaultEntryHeight": {
+		"Default": 60.0,
+		"Min": 20.0
+	  },
+      "ActiveEntryHeight": {
+		"Default": 120.0,
+		"Min": 20.0
+	  },
+	  "MarginEntryEntry": {
+		"Default": 25.0
+	  },	  
+	  "MarginLeft": {
+		"Default": 15.0
+	  },	  
+	  "MarginRight": {
+		"Default": 15.0
+	  },	  
+	  "PaddingLeft": {
+		"Default": 8.0
+	  },	  
+	  "PaddingRight": {
+		"Default": 8.0
+	  },	  
+	  "PaddingTop": {
+		"Default": 5.0
+	  },	  
+	  "PaddingBottom": {
+		"Default": 5.0
+	  },	
+	  "SegmentationLineDarkColor" : {
+        "Red": {
+			"Default": 0.75,
+			"Min": 0.0,
+			"Max": 1.0		
+		},
+        "Green": {
+			"Default": 0.75,
+			"Min": 0.0,
+			"Max": 1.0		
+		},
+        "Blue": {
+			"Default": 0.75,
+			"Min": 0.0,
+			"Max": 1.0		
+		},
+        "Alpha": {
+			"Default": 0.75,
+			"Min": 0.0,
+			"Max": 1.0		
+		}
+      },
+	  "SegmentationLineLightColor" : {
+        "Red": {
+			"Default": 0.3,
+			"Min": 0.0,
+			"Max": 1.0		
+		},
+        "Green": {
+			"Default": 0.3,
+			"Min": 0.0,
+			"Max": 1.0		
+		},
+        "Blue": {
+			"Default": 0.3,
+			"Min": 0.0,
+			"Max": 1.0		
+		},
+        "Alpha": {
+			"Default": 0.75,
+			"Min": 0.0,
+			"Max": 1.0		
+		}
+      },
+	  "SegmentationLineMargin": {
+		"Default": 15.0
+	  },
+	  "IconMarginLeft": {
+		"Default": 5.0
+	  },
+	  "IconMarginTop": {
+		"Default": 5.0
+	  },
+	  "IconMarginRight": {
+		"Default": 5.0
+	  },
+	  "IconWidth": {
+		"Default": 50.0
+	  },
+	  "IconHeight": {
+		"Default": 50.0
+	  },
+	  "ScrollAnimationDuration": {
+		"Default": 0.42,
+		"Min": 0.1,
+		"Max": 3.0
+	  },
+	  "FadeoutDelay": {
+		"Default": 3.0,
+		"Min": 0.5,
+		"Max": 60.0
+	  },
+	  "FadeoutDuration": {
+		"Default": 0.75,
+		"Min": 0.0,
+		"Max": 5.0
+	  },
+	  "EntryRectRoundingRadius": {
+		"Default": 5.0
+	  }
+    }
+  },
+  "Mouse" : {
+    "KineticScrollingEnabled" : true,
+    "KineticScrollingOptions" : {
+      "Upscaling" : [
+        {
+          "X" : 0.00000000000000E+000,
+          "Y" : 1.00000000000000E+000
+        },
+        {
+          "X" : 3.23740000000000E+002,
+          "Y" : 3.74200000000000E+000
+        },
+        {
+          "X" : 4.07670000000000E+002,
+          "Y" : 6.60300000000000E+000
+        },
+        {
+          "X" : 5.25180000000000E+002,
+          "Y" : 8.45000000000000E+000
+        },
+        {
+          "X" : 1.00000000000000E+003,
+          "Y" : 1.00000000000000E+001
+        }
+      ],
+      "Deceleration" : [
+        {
+          "X" : 0.00000000000000E+000,
+          "Y" : 6.80000000000000E+001
+        },
+        {
+          "X" : 1.56000000000000E+002,
+          "Y" : 2.94000000000000E+002
+        },
+        {
+          "X" : 2.88000000000000E+002,
+          "Y" : 7.69000000000000E+002
+        },
+        {
+          "X" : 3.57000000000000E+002,
+          "Y" : 1.01600000000000E+003
+        },
+        {
+          "X" : 1.00000000000000E+003,
+          "Y" : 1.05700000000000E+003
+        }
+      ]
+    },
+    "MiddleMouseBtnDoubleClick" : false,
+    "ScrollWindowUnderMouse" : true
+  },
+  "LastUsername" : "",
+  "LastMailAddress" : ""
+}

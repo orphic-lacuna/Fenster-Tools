@@ -1,0 +1,132 @@
+object frm_ClipboardInspector: Tfrm_ClipboardInspector
+  Left = 365
+  Height = 604
+  Top = 138
+  Width = 768
+  Caption = 'Clipboard Inspector'
+  ClientHeight = 604
+  ClientWidth = 768
+  LCLVersion = '1.6.0.4'
+  object ListView1: TListView
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 8
+    Height = 446
+    Top = 8
+    Width = 752
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 8
+    BorderSpacing.Top = 8
+    BorderSpacing.Right = 8
+    Columns = <    
+      item
+        AutoSize = True
+        Caption = 'Index'
+        Width = 48
+      end    
+      item
+        AutoSize = True
+        Caption = 'Zeitstempel'
+        Width = 91
+      end    
+      item
+        AutoSize = True
+        Caption = 'Kopiert aus'
+        Width = 87
+      end    
+      item
+        AutoSize = True
+        Caption = 'Anzahl Formate'
+        Width = 116
+      end    
+      item
+        AutoSize = True
+        Caption = 'Anzahl Eingefügt'
+        Width = 125
+      end    
+      item
+        Caption = 'Flags'
+      end    
+      item
+        Caption = 'Gehört zu'
+      end    
+      item
+        AutoSize = True
+        Caption = 'Inhalt als String'
+        Width = 181
+      end>
+    Items.LazData = {
+      8900000001000000FFFFFFFFFFFFFFFFFFFFFFFF060000000400000054657374
+      07000000746473667364660A00000045696E7472C3A46765320A00000045696E
+      7472C3A46765330A00000045696E7472C3A46765340A00000045696E7472C3A4
+      6765350A00000045696E7472C3A4676536FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFF
+    }
+    ReadOnly = True
+    RowSelect = True
+    TabOrder = 0
+    ViewStyle = vsReport
+    OnClick = ListView1Click
+  end
+  object Button1: TButton
+    Left = 312
+    Height = 33
+    Top = 328
+    Width = 84
+    Anchors = [akLeft, akBottom]
+    Caption = 'Refresh'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object GroupBox1: TGroupBox
+    AnchorSideTop.Control = ListView1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ListView1
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = StatusBar1
+    Left = 8
+    Height = 105
+    Top = 462
+    Width = 752
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Top = 8
+    BorderSpacing.Bottom = 8
+    Caption = 'Anwendung'
+    ClientHeight = 80
+    ClientWidth = 748
+    TabOrder = 2
+    object lblProductName: TLabel
+      AnchorSideLeft.Control = PaintBox1
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = PaintBox1
+      AnchorSideRight.Control = GroupBox1
+      AnchorSideRight.Side = asrBottom
+      Left = 152
+      Height = 20
+      Top = 8
+      Width = 588
+      Anchors = [akTop, akLeft, akRight]
+      AutoSize = False
+      BorderSpacing.Left = 8
+      BorderSpacing.Right = 8
+      Caption = 'lblProductName'
+      ParentColor = False
+    end
+    object PaintBox1: TPaintBox
+      Left = 16
+      Height = 128
+      Top = 8
+      Width = 128
+      OnPaint = PaintBox1Paint
+    end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 29
+    Top = 575
+    Width = 768
+    Panels = <>
+  end
+end

@@ -1,0 +1,21 @@
+We have an simple TFPGList<TManagedHotkey> THotkeyManager. Every known hotkey (user has assigned a real combination of keys that must be pressed)
+is represented by a TManagedHotkey that is created by loading the settings file or if user enters a new shortcut.
+To every TManagedHotkey can one THotkeyAction be assigned. THotkeyAction defines which function to call on which object and in which thread context.
+Also there is a list of HotkeyActionIDs, that are one-to-one mapped to actions (like cb-nav-up/down ...). Every TManagedHotkey
+has a HotkeyActionID.
+
+If a TManagedHotkey is triggered, the HotkeyActionID is looked up and then the corresponding action is executed.
+Controller-Objects like TClipboard have access to its HotkeyActionIDs and THotkeyActions. They can register/unregister a handler method. This
+registering/unregistering/execution of handler method must be guarded by a critical section in every THotkeyAction.
+THotkeyAction provides a function ("execute"), which can be entered by any thread. This function executes the registered function of controller object in right thread context.
+
+THotkeyAction objects are created/freed first/last and are permanently available.
+
+
+TManagedHotkey is derived from TThreadCollectionItem.
+
+THotkeyManager centrally enables/disables all hotkeys. (Un)Registering takes place in main thread. But the check for a matching hotkey
+is done within UserInputHook-Thread -> that's why we need to protect the whole HotkeyList (derived from TThreadCollection). If we cannot enter the
+critical section, we should drop the message.
+
+

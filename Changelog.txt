@@ -1,0 +1,168 @@
+Version 5.0.9.4 (09.04.2016)
+- Bugfix: Zwischenablage leeren funktionierte nicht
+- Bugfix: Scrollen im Explorer funktionierte nicht unter Windows 8 / 8.1
+
+Version 5.0.9.3 (04.04.2016):
+- Bugfix: Eingabe eines ungültigen Hotkeys (nur Mausrad-Hoch oder -runter) hatte die Hotkey-Eingabe nicht korrekt beendet
+- Bugfix: Bei Verwendung eines Strg-Alt-Mausrad-Hotkeys und eingeschaltetem Scrollnachlauf wurden die Desktopicons vergrößert/verkleinert, wenn man Strg-Alt-Mausrad betätigt hat
+- Bugfix: X-Button-Hotkeys wurden immer zweimal ausgelöst
+
+Version 5.0.9.2 (29.03.2016):
+- Bugfix: alte Konfigurationsdatei (älter als Version 5.0) wurde nicht korrekt konvertiert
+- Bugfix: Update funktionierte nicht direkt nach einem Update, sofern dafür ein Proxy nötig ist
+
+Version 5.0.6 (26.03.2016):
+- Bugfix: Darstellungsprobleme auf HighDPI-Monitoren behoben
+- Update verwendet jetzt Base64-Kodierung, damit Proxy-Server, die ausführaren Code filtern, keine Probleme machen
+- Updatelogik überarbeitet
+
+Version 5.0.5 (15.03.2016):
+- Unicode-Unterstützung (Das Kopieren und Einfügen von nicht-ANSI-Zeichen funktioniert ab jetzt)
+- Unterstützung für Windows 8, 8.1, 10
+	-> Bugfix: Scrollen in Windows-Store-Apps funktionierte nicht
+- Verwendung der neuen PCRE2-Bibliothek für Reguläre Ausdrücke
+- zahlreiche neue Einstellungsmöglichkeiten
+- vollautomatisches Update (auf Wunsch)
+
+Version 4.1.1 (08.11.2014):
+- Bugfix: Excel konnte nicht immer kopieren, wenn der Kopiermodus Intelligent (Reihenfolge erhalten) aktiv war
+
+Version 4.1 (05.11.2014):
+- Neue Funktion: Intelligentes Kopieren
+- Überarbeitung des Scroll-Nachlaufs: weicheres Anhalten und flexiblere Einstellmöglichkeiten
+- Tastenkombination zum Ausblenden eines Fenster ist jetzt frei wählbar
+- Überarbeitung des Patch-Systems, welches für diverse Funktionen nötig ist
+
+Version 4.0.3 (21.07.2014):
+- Bugfix: Verwendung der Hotkeys unter Remotedesktop funktionierte nicht
+
+Version 4.0 (03.07.2014):
+- Option hinzugefügt: eingefügter Eintrag soll wieder oben stehen in der Kopier-Historie
+- Möglichkeit des Überschreibens von System-Hotkeys und der Verwendung der Hotkeys unter Remotedesktop
+- Möglichkeit hinzugefügt, eine zusätzlichen Tastenkombination zum Blättern durch die Zwischenablage festzulegen
+- Erneuerung des Anzeigefensters der Zwischenablage, optisch anpassbar
+- Kopiervorgang patchen: Wenn beim Kopieren in die Zwischenablage Fehler auftreten (vorzugsweise bei Exel oder Adobe Reader),
+  dann behebt diese Option das Problem
+- Fortsetzung eines alten Eintrags nur dann, wenn maximal ein Buchstabe unterschiedlich war
+- Debug-Konsole hinzugefügt
+
+Version 3.2 (24.12.2013):
+- Unterstützung für Maus-Hotkeys beim Blättern durch die Zwischenablage (z.B. Strg+Alt+Mausrad-hoch/runter)
+- Verbessertes Verhalten beim Doppelt-Kopieren um die Formatierung zu entfernen
+- Beim Kopieren aus Adobe Reader tritt manchmal ein Fehler auf -> Sollte dies bei Ihnen der Fall sein, setzen Sie einen Haken bei "Aktiviere AdobeReader - Problembehebung" im Reiter Zwischenablage 
+- Überarbeitung der Update-Funktion (+Bugfix: Update war nur möglich, wenn FensterTools mit Admin-Rechten gestartet wurde)
+
+Version 3.1.1: (30.03.2013)
+- Bugfix: in Excel konnte nicht mehr richtig kopiert werden, wenn das automatische Ersetzen eingeschaltet war
+
+Version 3.1: (19.03.2013)
+- Anzeigedauer des Zwischenablageninhalts ist einstellbar
+- Unterstützung von regulären Ausdrücken (PCRE - Perl Compatible Regular Expressions) beim automatischen Ersetzen
+- die Formatierung von kopiertem Text wird entfernt, wenn man den Text zweimal hintereinander kopiert
+
+Version 3.0: (09.01.2013)
+- Updatefunktion überarbeitet
+	+ unter Vista/7: automatische Erkennung, ob Administratorrechte erforderlich für Update
+	+ Prüfsumme für den Download des Updates hinzugefügt
+
+Version 2.9.1: (12.12.2012)
+- Funktion hinzugefügt: Mittlere Maustaste (oder Klick auf Mausrad) verhält sich wie ein normaler Doppelklick
+
+Version 2.9: (17.08.2012)
+- Mausklick hält Scrollnachlauf automatisch an
+- Bugfix: Unter Vista/7 gab es eine Zugriffsverletzung beim Eingeben von Ersetzungsregeln sobald Alt-Gr gedrückt wurde
+- Bugfix: Scrollnachlauffunktion hat manchmal nicht mehr aufgehört zu scrollen
+- Bugfix: Gewählte Tastenkombination zum Blättern durch die Zwischenablage wurde nicht übernommen, wenn die voreingestellte Tastenkombination von einem anderen Programm belegt ist
+- Bugfix: Fensterausblendefunktion hatte nicht mehr funktioniert
+
+Version 2.8: (27.06.2012)
+- Online-Hilfe
+- Verbesserung der Scrollnachlauffunktion
+- erweiterte Ersetzungsmakros beim Kopieren
+- Bugfix: Unter Windows 7 konnte man ungewollt Teile der Taskleiste ausblenden
+
+Version 2.7:  (07.01.2012)
+- Einstellungen werden jetzt sofort übernommen (außer die Ersetzungsliste - wird nach wie vor erst übernommen, wenn das Einstellungsfenster geschlossen wurde)
+- neue Funktion: Scrollnachlauf - Wenn sehr schnell gescrollt wird, läuft das Scrollen eine gewisse Zeit weiter, auch wenn das Mausrad schon wieder stillt steht
+- neues Symbol
+- interne Überarbeitung
+
+Version 2.6:  (11.10.2011)
+- Verbesserung der Anzeige beim Blättern durch die Zwischenablage
+- Neue Makros: %tag%, %vorgestern%, %gestern%, %heute%, %morgen%, %übermorgen%
+- Bugfix: Menü wurde falsch angezeigt, sofern nur ein einzelner "-" (Bindestrich) kopiert wurde
+- Bugfix: Teilweise wurde beim Herunterfahren die Zwischenablage nicht korrekt gespeichert (sofern Option gewählt), beim Laden der defekten Datei gab es Probleme
+
+Version 2.5.1:  (25.08.2011)
+- Bugfix: Zähler, wie oft die Zwischenablage benutzt wurde, hat teilweise zu viel gezählt
+- Bugfix: Beim Herunterfahren wurde die Logdatei nicht korrekt geschrieben
+- Bugfix: Wenn die Zwischenablage leer war, dann wurde das Menü nicht korrekt angezeigt
+
+Version 2.5:    (nicht erschienen)
+- Automatisches Ersetzen in der Zwischenablage möglich
+- Logdatei wird erstellt, bei Absturz oder Fehler gesichert
+
+Version 2.4:    (10.08.2011)
+- Fehler beim Kopieren in die Zwischenablage (z.B. "Die Zwischenablage konnte nicht geöffnet werden.") behoben
+- bessere Speichernutzung, Programm läuft schneller und sollte auch nach längerem Gebrauch noch flüssig laufen
+- Fenster können mittels Tastenkombination (Voreinstellung: Windows+Enter) die Eigenschaft erhalten, immer im Vordergrund zu bleiben, auch wenn sie den Fokus verlieren
+
+Version 2.3.2:  (29.05.2011)
+- Datum im Changelog wurde eingeführt
+- Tastenkombinationen sind frei wählbar
+- bei belegten Tastenkombinationen kommt ein Hinweis, aber die Funktion zum Ausblenden der Fenster ist weiterhin nutzbar
+- Bugfix - Windows Vista/7: Beim automatischen Neustart von FensterTools um Zugriff auf ein Administratorfenster zu erhalten, gab es Probleme bei der Befehlsweitergabe
+- Bugfix: Beim Drücken von Alt bzw. Strg-Alt verschwanden Teile des Einstellungen-Dialoges bei aktivierten Themes unter XP/Vista/7
+
+Version 2.3.1:
+- automatisches Update ist jetzt optional
+- Verbesserungen beim Updateverhalten
+
+Version 2.3:
+- beim Neustart (z.B. aufgrund eines Updates) werden ausgeblendete Fenster nicht wieder eingeblendet, sondern im Speicher behalten;
+die aktuelle Zwischenablage bleibt erhalten.
+- Verbesserungen beim Updateverhalten
+- Bugfix: Möglichkeit, einzelne Fenster auszublenden, funktionierte nicht
+
+Version 2.2.6.1:
+- Fenster verliert jetzt nicht mehr seinen Fokus nach Auswahl des Zwischenablegeninhaltes durch die mittlere Maustaste
+- Mittlere Maustaste steht jetzt entweder mit normaler Funktion oder mit dem Menü der Zwischenablage zur Verfügung (je nach Einstellung)
+
+Version 2.2.6:
+- Bugfix: Probleme beim Benutzen der Zwischenablage
+- Mittlere Maustaste (Mausrad) kann Menü der Zwischenablage öffnen
+
+Version 2.2.5:
+- Bugfix: aktueller Inhalt der Zwischenablage wurde beim Programmstart unter Vista/7 nicht berücksichtigt
+- Bugfix: unter XP wurden unter bestimmten Umständen keine neuen Einträge mehr in die Zwischenablage aufgenommen
+- Ausgeblendete Fenster, die sich selbst geschlossen haben => ab jetzt wird die belegte F-Taste wieder freigegen
+- Die Funktion, Fenster auszublenden, ist jetzt optional
+
+Version 2.2.4.1:
+- Bugfix: Schrift war über offenen Fenstern beim Blättern durch die Zwischenablage nicht lesbar
+
+Version 2.2.4:
+- Programm fragt (unter Vista/7) nach Administratorrechten, falls ein Administratorfenster ausgeblendet werden soll
+- beim Navigieren durch die Zwischenablage verliert ab jetzt das aktuelle Fenster NICHT mehr seinen Fokus
+- verbesserte Unterstütznung der Zwischenablage bei Vista/7
+- Bugfix: Stack-Überlauf bei längerer Benutzung der Zwischenablagenerweiterung
+
+Version 2.2.3:
+- Bugfix: Programm startete nicht unter XP
+- verbessertes Updateverhalten
+
+Version 2.2.2:
+- Bugfix: Installation unter Vista/7
+
+Version 2.2.1:
+- Bugfix: Alte Zwischenablageneinträge wurden versehentlich vom Programm gelöscht.
+- Verwendung der verbesserten Dialoge von Windows Vista / 7
+
+Version 2.2:
+- Einführung Changelog
+- verbesserte Unterstützung für Windows7/Vista
+  (u.A.: Verlagerung der Config-Datei ins korrekte Verzeichnis, Vista/7-Manifest-Datei)
+- Setup-Datei erstellt
+- Mittels Strg-Alt-Pfeil-Hoch/-Runter kann durch die Zwischenablage navigiert werden
+- Bugfix: Fehler bei abgeschalteter Zwischenablagenerweiterung
+- Bugfix: Fehler beim Blättern durch die Zwischenablage, falls diese leer ist

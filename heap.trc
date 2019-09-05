@@ -1,0 +1,1880 @@
+C:\Delphi\Sinnvolles\FensterToolsLazarus\FensterTools.exe 
+Heap dump by heaptrc unit
+6081589 memory blocks allocated : 421283545/445356240
+6081381 memory blocks freed     : 420732148/444804496
+208 unfreed memory blocks : 551397
+True heap size : 622592
+True free heap : 620848
+Should be : 57536
+Call trace for block $0A19E3F8 size 28
+  $005BB913  TBASICTHREADWITHCALLBACKWND__PREPARECONTAINERCLASS,  line 284 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BB9BB  TBASICTHREADWITHCALLBACKWND__DOCALLBACKPROC,  line 297 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0044F525  TDEBUGLOG__WRITETEXTTOFILE,  line 210 of Logging.pas
+  $005BCB09  TTHREADMETHODPARAMCONTAINER$1$CRCF1763792__EXECUTE,  line 677 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC69F  TTHREADMETHODPARAMOBJECTCONTAINER__EXECUTE,  line 722 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBC06  TTHREADEX__HANDLETHREADMESSAGE,  line 356 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0A19E1C8 size 28
+  $005BB913  TBASICTHREADWITHCALLBACKWND__PREPARECONTAINERCLASS,  line 284 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BB9BB  TBASICTHREADWITHCALLBACKWND__DOCALLBACKPROC,  line 297 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0044F525  TDEBUGLOG__WRITETEXTTOFILE,  line 210 of Logging.pas
+  $005BCB09  TTHREADMETHODPARAMCONTAINER$1$CRCF1763792__EXECUTE,  line 677 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC69F  TTHREADMETHODPARAMOBJECTCONTAINER__EXECUTE,  line 722 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBC06  TTHREADEX__HANDLETHREADMESSAGE,  line 356 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0A19EBD8 size 28
+  $005BB913  TBASICTHREADWITHCALLBACKWND__PREPARECONTAINERCLASS,  line 284 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BB9BB  TBASICTHREADWITHCALLBACKWND__DOCALLBACKPROC,  line 297 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0044F525  TDEBUGLOG__WRITETEXTTOFILE,  line 210 of Logging.pas
+  $005BCB09  TTHREADMETHODPARAMCONTAINER$1$CRCF1763792__EXECUTE,  line 677 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC69F  TTHREADMETHODPARAMOBJECTCONTAINER__EXECUTE,  line 722 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBC06  TTHREADEX__HANDLETHREADMESSAGE,  line 356 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0A19E468 size 28
+  $005BB913  TBASICTHREADWITHCALLBACKWND__PREPARECONTAINERCLASS,  line 284 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BB9BB  TBASICTHREADWITHCALLBACKWND__DOCALLBACKPROC,  line 297 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0044F525  TDEBUGLOG__WRITETEXTTOFILE,  line 210 of Logging.pas
+  $005BCB09  TTHREADMETHODPARAMCONTAINER$1$CRCF1763792__EXECUTE,  line 677 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC69F  TTHREADMETHODPARAMOBJECTCONTAINER__EXECUTE,  line 722 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBC06  TTHREADEX__HANDLETHREADMESSAGE,  line 356 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0A19EB68 size 28
+  $005BB913  TBASICTHREADWITHCALLBACKWND__PREPARECONTAINERCLASS,  line 284 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BB9BB  TBASICTHREADWITHCALLBACKWND__DOCALLBACKPROC,  line 297 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0044F525  TDEBUGLOG__WRITETEXTTOFILE,  line 210 of Logging.pas
+  $005BCB09  TTHREADMETHODPARAMCONTAINER$1$CRCF1763792__EXECUTE,  line 677 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC69F  TTHREADMETHODPARAMOBJECTCONTAINER__EXECUTE,  line 722 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBC06  TTHREADEX__HANDLETHREADMESSAGE,  line 356 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0A19E158 size 28
+  $005BB913  TBASICTHREADWITHCALLBACKWND__PREPARECONTAINERCLASS,  line 284 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BB9BB  TBASICTHREADWITHCALLBACKWND__DOCALLBACKPROC,  line 297 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0044F525  TDEBUGLOG__WRITETEXTTOFILE,  line 210 of Logging.pas
+  $005BCB09  TTHREADMETHODPARAMCONTAINER$1$CRCF1763792__EXECUTE,  line 677 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC69F  TTHREADMETHODPARAMOBJECTCONTAINER__EXECUTE,  line 722 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBC06  TTHREADEX__HANDLETHREADMESSAGE,  line 356 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0A19E858 size 28
+  $005BB913  TBASICTHREADWITHCALLBACKWND__PREPARECONTAINERCLASS,  line 284 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BB9BB  TBASICTHREADWITHCALLBACKWND__DOCALLBACKPROC,  line 297 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0044F525  TDEBUGLOG__WRITETEXTTOFILE,  line 210 of Logging.pas
+  $005BCB09  TTHREADMETHODPARAMCONTAINER$1$CRCF1763792__EXECUTE,  line 677 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC69F  TTHREADMETHODPARAMOBJECTCONTAINER__EXECUTE,  line 722 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBC06  TTHREADEX__HANDLETHREADMESSAGE,  line 356 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0A19E708 size 28
+  $005BB913  TBASICTHREADWITHCALLBACKWND__PREPARECONTAINERCLASS,  line 284 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BB9BB  TBASICTHREADWITHCALLBACKWND__DOCALLBACKPROC,  line 297 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0044F525  TDEBUGLOG__WRITETEXTTOFILE,  line 210 of Logging.pas
+  $005BCB09  TTHREADMETHODPARAMCONTAINER$1$CRCF1763792__EXECUTE,  line 677 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC69F  TTHREADMETHODPARAMOBJECTCONTAINER__EXECUTE,  line 722 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBC06  TTHREADEX__HANDLETHREADMESSAGE,  line 356 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0A19EAF8 size 28
+  $005BB913  TBASICTHREADWITHCALLBACKWND__PREPARECONTAINERCLASS,  line 284 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BB9BB  TBASICTHREADWITHCALLBACKWND__DOCALLBACKPROC,  line 297 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0044F525  TDEBUGLOG__WRITETEXTTOFILE,  line 210 of Logging.pas
+  $005BCB09  TTHREADMETHODPARAMCONTAINER$1$CRCF1763792__EXECUTE,  line 677 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC69F  TTHREADMETHODPARAMOBJECTCONTAINER__EXECUTE,  line 722 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBC06  TTHREADEX__HANDLETHREADMESSAGE,  line 356 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0A19E2A8 size 28
+  $005BB913  TBASICTHREADWITHCALLBACKWND__PREPARECONTAINERCLASS,  line 284 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BB9BB  TBASICTHREADWITHCALLBACKWND__DOCALLBACKPROC,  line 297 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0044F525  TDEBUGLOG__WRITETEXTTOFILE,  line 210 of Logging.pas
+  $005BCB09  TTHREADMETHODPARAMCONTAINER$1$CRCF1763792__EXECUTE,  line 677 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC69F  TTHREADMETHODPARAMOBJECTCONTAINER__EXECUTE,  line 722 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBC06  TTHREADEX__HANDLETHREADMESSAGE,  line 356 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0A19E7E8 size 28
+  $005BB913  TBASICTHREADWITHCALLBACKWND__PREPARECONTAINERCLASS,  line 284 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BB9BB  TBASICTHREADWITHCALLBACKWND__DOCALLBACKPROC,  line 297 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0044F525  TDEBUGLOG__WRITETEXTTOFILE,  line 210 of Logging.pas
+  $005BCB09  TTHREADMETHODPARAMCONTAINER$1$CRCF1763792__EXECUTE,  line 677 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC69F  TTHREADMETHODPARAMOBJECTCONTAINER__EXECUTE,  line 722 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBC06  TTHREADEX__HANDLETHREADMESSAGE,  line 356 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7AA358 size 32
+  $0044F8EC  TDEBUGLOG__ADD,  line 247 of Logging.pas
+  $0044F80D  TDEBUGLOG__ENDTHREAD,  line 236 of Logging.pas
+  $00456164  TSERVICECONNECTION__THREADINTERNALDESTROY,  line 303 of serviceconnection.pas
+  $005BCAB9  TBASICTHREAD__THREADFUNC,  line 816 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+  $76F94A77
+  $76F94A47
+Call trace for block $13821FF8 size 132
+  $0044F7FD  TDEBUGLOG__ENDTHREAD,  line 236 of Logging.pas
+  $00456164  TSERVICECONNECTION__THREADINTERNALDESTROY,  line 303 of serviceconnection.pas
+  $005BCAB9  TBASICTHREAD__THREADFUNC,  line 816 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+  $76F94A77
+  $76F94A47
+  $76F94A77
+Call trace for block $0B82F8A0 size 32
+  $0044F8EC  TDEBUGLOG__ADD,  line 247 of Logging.pas
+  $0044F80D  TDEBUGLOG__ENDTHREAD,  line 236 of Logging.pas
+  $005B86F9  TUSERINPUTPROVIDER__THREADINTERNALDESTROY,  line 541 of UserInputProvider.pas
+  $005BCAB9  TBASICTHREAD__THREADFUNC,  line 816 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+  $76F94A77
+  $76F94A47
+Call trace for block $0B8411C0 size 132
+  $0044F7FD  TDEBUGLOG__ENDTHREAD,  line 236 of Logging.pas
+  $005B86F9  TUSERINPUTPROVIDER__THREADINTERNALDESTROY,  line 541 of UserInputProvider.pas
+  $005BCAB9  TBASICTHREAD__THREADFUNC,  line 816 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+  $76F94A77
+  $76F94A47
+  $BAADF00D
+Call trace for block $0B82F830 size 32
+  $0044F8EC  TDEBUGLOG__ADD,  line 247 of Logging.pas
+  $005B86D1  TUSERINPUTPROVIDER__UNINSTALLHOOKS,  line 532 of UserInputProvider.pas
+  $005B86EF  TUSERINPUTPROVIDER__THREADINTERNALDESTROY,  line 540 of UserInputProvider.pas
+  $005BCAB9  TBASICTHREAD__THREADFUNC,  line 816 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+  $76F94A77
+  $76F94A47
+Call trace for block $0B82F520 size 32
+  $0044F8EC  TDEBUGLOG__ADD,  line 247 of Logging.pas
+  $005B869F  TUSERINPUTPROVIDER__UNINSTALLHOOKS,  line 526 of UserInputProvider.pas
+  $005B86EF  TUSERINPUTPROVIDER__THREADINTERNALDESTROY,  line 540 of UserInputProvider.pas
+  $005BCAB9  TBASICTHREAD__THREADFUNC,  line 816 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+  $76F94A77
+  $76F94A47
+Call trace for block $0B7D7438 size 32
+  $0044F8EC  TDEBUGLOG__ADD,  line 247 of Logging.pas
+  $0044F80D  TDEBUGLOG__ENDTHREAD,  line 236 of Logging.pas
+  $004580E4  TCLIPBOARDBASE__THREADINTERNALDESTROY,  line 168 of ./Clipboard/Clipboard.Notifications.pas
+  $00458BC2  TCLIPBOARDMANAGER__THREADINTERNALDESTROY,  line 350 of ./Clipboard/Clipboard.Manager.pas
+  $005BCAB9  TBASICTHREAD__THREADFUNC,  line 816 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+  $76F94A77
+Call trace for block $0B80E2F0 size 132
+  $0044F7FD  TDEBUGLOG__ENDTHREAD,  line 236 of Logging.pas
+  $004580E4  TCLIPBOARDBASE__THREADINTERNALDESTROY,  line 168 of ./Clipboard/Clipboard.Notifications.pas
+  $00458BC2  TCLIPBOARDMANAGER__THREADINTERNALDESTROY,  line 350 of ./Clipboard/Clipboard.Manager.pas
+  $005BCAB9  TBASICTHREAD__THREADFUNC,  line 816 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+  $76F94A77
+  $76F94A47
+Call trace for block $0B7E0540 size 24
+  $005BB913  TBASICTHREADWITHCALLBACKWND__PREPARECONTAINERCLASS,  line 284 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBA4A  TBASICTHREADWITHCALLBACKWND__DOCALLBACKPROC,  line 310 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $00457C77  TCLIPBOARDBASE__SETCLIPBOARDPASTENOTIFICATIONENABLED,  line 97 of ./Clipboard/Clipboard.Notifications.pas
+  $00458B91  TCLIPBOARDMANAGER__THREADINTERNALDESTROY,  line 344 of ./Clipboard/Clipboard.Manager.pas
+  $005BCAB9  TBASICTHREAD__THREADFUNC,  line 816 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+  $76F94A77
+Call trace for block $0B7E05A0 size 20
+  $0045995E  TCLIPBRDITEMBODY__LOADFROMSTREAM,  line 182 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F51F  TCLIPBOARDITEM__GETBODY,  line 358 of ./Clipboard/Clipboard.List.pas
+  $0066E6E2  TRENDERINGINFO__CREATE,  line 206 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $006715F5  TCLIPBOARDWINDOW__ANIMATE,  line 351 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7FE9C0 size 46
+  $00672785  TCLIPBRDITEMFORMAT__CREATEFROMSTREAM,  line 216 of ./Clipboard/Clipboard.Formats.pas
+  $00459951  TCLIPBRDITEMBODY__LOADFROMSTREAM,  line 182 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F51F  TCLIPBOARDITEM__GETBODY,  line 358 of ./Clipboard/Clipboard.List.pas
+  $0066E6E2  TRENDERINGINFO__CREATE,  line 206 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $006715F5  TCLIPBOARDWINDOW__ANIMATE,  line 351 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+Call trace for block $0B7E0600 size 20
+  $00672718  TCLIPBRDITEMFORMAT__CREATEFROMSTREAM,  line 206 of ./Clipboard/Clipboard.Formats.pas
+  $00459951  TCLIPBRDITEMBODY__LOADFROMSTREAM,  line 182 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F51F  TCLIPBOARDITEM__GETBODY,  line 358 of ./Clipboard/Clipboard.List.pas
+  $0066E6E2  TRENDERINGINFO__CREATE,  line 206 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $006715F5  TCLIPBOARDWINDOW__ANIMATE,  line 351 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+Call trace for block $0B7C7148 size 58
+  $0066F51F  TCLIPBOARDITEM__GETBODY,  line 358 of ./Clipboard/Clipboard.List.pas
+  $0066E6E2  TRENDERINGINFO__CREATE,  line 206 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $006715F5  TCLIPBOARDWINDOW__ANIMATE,  line 351 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7FE940 size 48
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $006715F5  TCLIPBOARDWINDOW__ANIMATE,  line 351 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBC06  TTHREADEX__HANDLETHREADMESSAGE,  line 356 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7E0480 size 20
+  $0045995E  TCLIPBRDITEMBODY__LOADFROMSTREAM,  line 182 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F51F  TCLIPBOARDITEM__GETBODY,  line 358 of ./Clipboard/Clipboard.List.pas
+  $0066E6E2  TRENDERINGINFO__CREATE,  line 206 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7E04E0 size 22
+  $00672785  TCLIPBRDITEMFORMAT__CREATEFROMSTREAM,  line 216 of ./Clipboard/Clipboard.Formats.pas
+  $00459951  TCLIPBRDITEMBODY__LOADFROMSTREAM,  line 182 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F51F  TCLIPBOARDITEM__GETBODY,  line 358 of ./Clipboard/Clipboard.List.pas
+  $0066E6E2  TRENDERINGINFO__CREATE,  line 206 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+Call trace for block $0B7E0420 size 20
+  $00672718  TCLIPBRDITEMFORMAT__CREATEFROMSTREAM,  line 206 of ./Clipboard/Clipboard.Formats.pas
+  $00459951  TCLIPBRDITEMBODY__LOADFROMSTREAM,  line 182 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F51F  TCLIPBOARDITEM__GETBODY,  line 358 of ./Clipboard/Clipboard.List.pas
+  $0066E6E2  TRENDERINGINFO__CREATE,  line 206 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+Call trace for block $0B806A58 size 106
+  $0066F51F  TCLIPBOARDITEM__GETBODY,  line 358 of ./Clipboard/Clipboard.List.pas
+  $0066E6E2  TRENDERINGINFO__CREATE,  line 206 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7FE8C0 size 48
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBC06  TTHREADEX__HANDLETHREADMESSAGE,  line 356 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7E0360 size 20
+  $0045995E  TCLIPBRDITEMBODY__LOADFROMSTREAM,  line 182 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F51F  TCLIPBOARDITEM__GETBODY,  line 358 of ./Clipboard/Clipboard.List.pas
+  $0066E6E2  TRENDERINGINFO__CREATE,  line 206 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $006715F5  TCLIPBOARDWINDOW__ANIMATE,  line 351 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7E0300 size 22
+  $00672785  TCLIPBRDITEMFORMAT__CREATEFROMSTREAM,  line 216 of ./Clipboard/Clipboard.Formats.pas
+  $00459951  TCLIPBRDITEMBODY__LOADFROMSTREAM,  line 182 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F51F  TCLIPBOARDITEM__GETBODY,  line 358 of ./Clipboard/Clipboard.List.pas
+  $0066E6E2  TRENDERINGINFO__CREATE,  line 206 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $006715F5  TCLIPBOARDWINDOW__ANIMATE,  line 351 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+Call trace for block $0B7E03C0 size 20
+  $00672718  TCLIPBRDITEMFORMAT__CREATEFROMSTREAM,  line 206 of ./Clipboard/Clipboard.Formats.pas
+  $00459951  TCLIPBRDITEMBODY__LOADFROMSTREAM,  line 182 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F51F  TCLIPBOARDITEM__GETBODY,  line 358 of ./Clipboard/Clipboard.List.pas
+  $0066E6E2  TRENDERINGINFO__CREATE,  line 206 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $006715F5  TCLIPBOARDWINDOW__ANIMATE,  line 351 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+Call trace for block $0B806818 size 106
+  $0066F51F  TCLIPBOARDITEM__GETBODY,  line 358 of ./Clipboard/Clipboard.List.pas
+  $0066E6E2  TRENDERINGINFO__CREATE,  line 206 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $006715F5  TCLIPBOARDWINDOW__ANIMATE,  line 351 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7FE840 size 48
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $006715F5  TCLIPBOARDWINDOW__ANIMATE,  line 351 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBC06  TTHREADEX__HANDLETHREADMESSAGE,  line 356 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7E0000 size 20
+  $005BB8B3  TBASICTHREADWITHCALLBACKWND__PREPARECONTAINERCLASS,  line 278 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC4DA  TTHREADEX__CANCELDELAYEDTHREADPROC,  line 608 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0067170C  TCLIPBOARDWINDOW__SHOW,  line 391 of ./ClipboardWindow/ClipboardWindow.pas
+  $00671687  TCLIPBOARDWINDOW__ANIMATE,  line 365 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7E02A0 size 20
+  $0045995E  TCLIPBRDITEMBODY__LOADFROMSTREAM,  line 182 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F51F  TCLIPBOARDITEM__GETBODY,  line 358 of ./Clipboard/Clipboard.List.pas
+  $0066E6E2  TRENDERINGINFO__CREATE,  line 206 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7E0240 size 22
+  $00672785  TCLIPBRDITEMFORMAT__CREATEFROMSTREAM,  line 216 of ./Clipboard/Clipboard.Formats.pas
+  $00459951  TCLIPBRDITEMBODY__LOADFROMSTREAM,  line 182 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F51F  TCLIPBOARDITEM__GETBODY,  line 358 of ./Clipboard/Clipboard.List.pas
+  $0066E6E2  TRENDERINGINFO__CREATE,  line 206 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+Call trace for block $0B7E01E0 size 20
+  $00672718  TCLIPBRDITEMFORMAT__CREATEFROMSTREAM,  line 206 of ./Clipboard/Clipboard.Formats.pas
+  $00459951  TCLIPBRDITEMBODY__LOADFROMSTREAM,  line 182 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F51F  TCLIPBOARDITEM__GETBODY,  line 358 of ./Clipboard/Clipboard.List.pas
+  $0066E6E2  TRENDERINGINFO__CREATE,  line 206 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+Call trace for block $0B806758 size 106
+  $0066F51F  TCLIPBOARDITEM__GETBODY,  line 358 of ./Clipboard/Clipboard.List.pas
+  $0066E6E2  TRENDERINGINFO__CREATE,  line 206 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7FE740 size 48
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBC06  TTHREADEX__HANDLETHREADMESSAGE,  line 356 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7E0180 size 16
+  $0045CAC1  TAPPFILEINFO__CREATE,  line 55 of ./ClipboardWindow/AppFileInfo.pas
+  $0066F590  TCLIPBOARDITEM__GETCOPIEDFROMAPPINFO,  line 370 of ./Clipboard/Clipboard.List.pas
+  $0066E705  TRENDERINGINFO__CREATE,  line 207 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $1386E2C0 size 8192
+  $0055F1C2
+  $004F2056
+  $004BC202
+  $004B5457
+  $004B4FA6
+  $0045CAC1  TAPPFILEINFO__CREATE,  line 55 of ./ClipboardWindow/AppFileInfo.pas
+  $0066F590  TCLIPBOARDITEM__GETCOPIEDFROMAPPINFO,  line 370 of ./Clipboard/Clipboard.List.pas
+  $0066E705  TRENDERINGINFO__CREATE,  line 207 of ./Clipboard/Clipboard.List.pas
+Call trace for block $1405B130 size 262144
+  $0055F1C2
+  $004F200A
+  $004BC202
+  $004B5457
+  $004B4FA6
+  $0045CAC1  TAPPFILEINFO__CREATE,  line 55 of ./ClipboardWindow/AppFileInfo.pas
+  $0066F590  TCLIPBOARDITEM__GETCOPIEDFROMAPPINFO,  line 370 of ./Clipboard/Clipboard.List.pas
+  $0066E705  TRENDERINGINFO__CREATE,  line 207 of ./Clipboard/Clipboard.List.pas
+Call trace for block $0B806698 size 120
+  $004B4FA6
+  $0045CAC1  TAPPFILEINFO__CREATE,  line 55 of ./ClipboardWindow/AppFileInfo.pas
+  $0066F590  TCLIPBOARDITEM__GETCOPIEDFROMAPPINFO,  line 370 of ./Clipboard/Clipboard.List.pas
+  $0066E705  TRENDERINGINFO__CREATE,  line 207 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+Call trace for block $0B7E0120 size 16
+  $004B506E
+  $004AC9D9
+  $004B5D0F
+  $0045CC46  TAPPFILEINFO__LOADICON,  line 88 of ./ClipboardWindow/AppFileInfo.pas
+  $0045CAC1  TAPPFILEINFO__CREATE,  line 55 of ./ClipboardWindow/AppFileInfo.pas
+  $0066F590  TCLIPBOARDITEM__GETCOPIEDFROMAPPINFO,  line 370 of ./Clipboard/Clipboard.List.pas
+  $0066E705  TRENDERINGINFO__CREATE,  line 207 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+Call trace for block $0B7E00C0 size 24
+  $004AC9D9
+  $004B5D0F
+  $0045CC46  TAPPFILEINFO__LOADICON,  line 88 of ./ClipboardWindow/AppFileInfo.pas
+  $0045CAC1  TAPPFILEINFO__CREATE,  line 55 of ./ClipboardWindow/AppFileInfo.pas
+  $0066F590  TCLIPBOARDITEM__GETCOPIEDFROMAPPINFO,  line 370 of ./Clipboard/Clipboard.List.pas
+  $0066E705  TRENDERINGINFO__CREATE,  line 207 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+Call trace for block $0B7C7028 size 72
+  $0045CC46  TAPPFILEINFO__LOADICON,  line 88 of ./ClipboardWindow/AppFileInfo.pas
+  $0045CAC1  TAPPFILEINFO__CREATE,  line 55 of ./ClipboardWindow/AppFileInfo.pas
+  $0066F590  TCLIPBOARDITEM__GETCOPIEDFROMAPPINFO,  line 370 of ./Clipboard/Clipboard.List.pas
+  $0066E705  TRENDERINGINFO__CREATE,  line 207 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+Call trace for block $138681D0 size 1301
+  $0045CAB9  TAPPFILEINFO__CREATE,  line 54 of ./ClipboardWindow/AppFileInfo.pas
+  $0066F590  TCLIPBOARDITEM__GETCOPIEDFROMAPPINFO,  line 370 of ./Clipboard/Clipboard.List.pas
+  $0066E705  TRENDERINGINFO__CREATE,  line 207 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7E0060 size 16
+  $0066F590  TCLIPBOARDITEM__GETCOPIEDFROMAPPINFO,  line 370 of ./Clipboard/Clipboard.List.pas
+  $0066E705  TRENDERINGINFO__CREATE,  line 207 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7FE6C0 size 48
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBC06  TTHREADEX__HANDLETHREADMESSAGE,  line 356 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7FE640 size 48
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBC06  TTHREADEX__HANDLETHREADMESSAGE,  line 356 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7FE5C0 size 48
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $0067637C  TCBWNDENTRYLIST__REBUILDLIST,  line 149 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBC06  TTHREADEX__HANDLETHREADMESSAGE,  line 356 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DFFA0 size 16
+  $0045CAC1  TAPPFILEINFO__CREATE,  line 55 of ./ClipboardWindow/AppFileInfo.pas
+  $0066F590  TCLIPBOARDITEM__GETCOPIEDFROMAPPINFO,  line 370 of ./Clipboard/Clipboard.List.pas
+  $0066E705  TRENDERINGINFO__CREATE,  line 207 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $006762F0  TCBWNDENTRYLIST__REBUILDLIST,  line 130 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $1386A220 size 8192
+  $0055F1C2
+  $004F2056
+  $004BC202
+  $004B5457
+  $004B4FA6
+  $0045CAC1  TAPPFILEINFO__CREATE,  line 55 of ./ClipboardWindow/AppFileInfo.pas
+  $0066F590  TCLIPBOARDITEM__GETCOPIEDFROMAPPINFO,  line 370 of ./Clipboard/Clipboard.List.pas
+  $0066E705  TRENDERINGINFO__CREATE,  line 207 of ./Clipboard/Clipboard.List.pas
+Call trace for block $1401B0E0 size 262144
+  $0055F1C2
+  $004F200A
+  $004BC202
+  $004B5457
+  $004B4FA6
+  $0045CAC1  TAPPFILEINFO__CREATE,  line 55 of ./ClipboardWindow/AppFileInfo.pas
+  $0066F590  TCLIPBOARDITEM__GETCOPIEDFROMAPPINFO,  line 370 of ./Clipboard/Clipboard.List.pas
+  $0066E705  TRENDERINGINFO__CREATE,  line 207 of ./Clipboard/Clipboard.List.pas
+Call trace for block $0B806398 size 120
+  $004B4FA6
+  $0045CAC1  TAPPFILEINFO__CREATE,  line 55 of ./ClipboardWindow/AppFileInfo.pas
+  $0066F590  TCLIPBOARDITEM__GETCOPIEDFROMAPPINFO,  line 370 of ./Clipboard/Clipboard.List.pas
+  $0066E705  TRENDERINGINFO__CREATE,  line 207 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $006762F0  TCBWNDENTRYLIST__REBUILDLIST,  line 130 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+Call trace for block $0B7DFF40 size 16
+  $004B506E
+  $004AC9D9
+  $004B5D0F
+  $0045CC46  TAPPFILEINFO__LOADICON,  line 88 of ./ClipboardWindow/AppFileInfo.pas
+  $0045CAC1  TAPPFILEINFO__CREATE,  line 55 of ./ClipboardWindow/AppFileInfo.pas
+  $0066F590  TCLIPBOARDITEM__GETCOPIEDFROMAPPINFO,  line 370 of ./Clipboard/Clipboard.List.pas
+  $0066E705  TRENDERINGINFO__CREATE,  line 207 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+Call trace for block $0B7DFEE0 size 24
+  $004AC9D9
+  $004B5D0F
+  $0045CC46  TAPPFILEINFO__LOADICON,  line 88 of ./ClipboardWindow/AppFileInfo.pas
+  $0045CAC1  TAPPFILEINFO__CREATE,  line 55 of ./ClipboardWindow/AppFileInfo.pas
+  $0066F590  TCLIPBOARDITEM__GETCOPIEDFROMAPPINFO,  line 370 of ./Clipboard/Clipboard.List.pas
+  $0066E705  TRENDERINGINFO__CREATE,  line 207 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $006762F0  TCBWNDENTRYLIST__REBUILDLIST,  line 130 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+Call trace for block $0B7C6F98 size 72
+  $0045CC46  TAPPFILEINFO__LOADICON,  line 88 of ./ClipboardWindow/AppFileInfo.pas
+  $0045CAC1  TAPPFILEINFO__CREATE,  line 55 of ./ClipboardWindow/AppFileInfo.pas
+  $0066F590  TCLIPBOARDITEM__GETCOPIEDFROMAPPINFO,  line 370 of ./Clipboard/Clipboard.List.pas
+  $0066E705  TRENDERINGINFO__CREATE,  line 207 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $006762F0  TCBWNDENTRYLIST__REBUILDLIST,  line 130 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+Call trace for block $13867B60 size 1565
+  $0045CAB9  TAPPFILEINFO__CREATE,  line 54 of ./ClipboardWindow/AppFileInfo.pas
+  $0066F590  TCLIPBOARDITEM__GETCOPIEDFROMAPPINFO,  line 370 of ./Clipboard/Clipboard.List.pas
+  $0066E705  TRENDERINGINFO__CREATE,  line 207 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $006762F0  TCBWNDENTRYLIST__REBUILDLIST,  line 130 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF5E0 size 16
+  $0066F590  TCLIPBOARDITEM__GETCOPIEDFROMAPPINFO,  line 370 of ./Clipboard/Clipboard.List.pas
+  $0066E705  TRENDERINGINFO__CREATE,  line 207 of ./Clipboard/Clipboard.List.pas
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $006762F0  TCBWNDENTRYLIST__REBUILDLIST,  line 130 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7FE540 size 48
+  $0066F632  TCLIPBOARDITEM__GETRENDERINGINFO,  line 389 of ./Clipboard/Clipboard.List.pas
+  $006762F0  TCBWNDENTRYLIST__REBUILDLIST,  line 130 of ./ClipboardWindow/ClipboardWindow.Entry.pas
+  $0067163D  TCLIPBOARDWINDOW__ANIMATE,  line 362 of ./ClipboardWindow/ClipboardWindow.pas
+  $00458300  TCLIPBOARDMANAGER__NAVIGATEDOWN,  line 81 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBC06  TTHREADEX__HANDLETHREADMESSAGE,  line 356 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B8065D8 size 106
+  $004594AE  TCLIPBRDITEMBODY__ACQUIREFROMCLIPBOARD,  line 133 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F455  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 342 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DFE80 size 20
+  $0045948B  TCLIPBRDITEMBODY__ACQUIREFROMCLIPBOARD,  line 128 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F455  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 342 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DFE20 size 16
+  $0045947D  TCLIPBRDITEMBODY__ACQUIREFROMCLIPBOARD,  line 127 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F455  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 342 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DFDC0 size 20
+  $00459458  TCLIPBRDITEMBODY__ACQUIREFROMCLIPBOARD,  line 126 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F455  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 342 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DFD60 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DFD00 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DFCA0 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7C6F08 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7D6A28 size 32
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC0F7  TTHREADEX__INTERNALPROCESSMESSAGE,  line 481 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B806518 size 106
+  $004594AE  TCLIPBRDITEMBODY__ACQUIREFROMCLIPBOARD,  line 133 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F455  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 342 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DFC40 size 20
+  $0045948B  TCLIPBRDITEMBODY__ACQUIREFROMCLIPBOARD,  line 128 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F455  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 342 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DFBE0 size 18
+  $0045947D  TCLIPBRDITEMBODY__ACQUIREFROMCLIPBOARD,  line 127 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F455  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 342 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DFB80 size 20
+  $00459458  TCLIPBRDITEMBODY__ACQUIREFROMCLIPBOARD,  line 126 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F455  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 342 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DFB20 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DFAC0 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DFA60 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7C6E78 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7D6DA8 size 32
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC0F7  TTHREADEX__INTERNALPROCESSMESSAGE,  line 481 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B806458 size 106
+  $004594AE  TCLIPBRDITEMBODY__ACQUIREFROMCLIPBOARD,  line 133 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F455  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 342 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DFA00 size 20
+  $0045948B  TCLIPBRDITEMBODY__ACQUIREFROMCLIPBOARD,  line 128 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F455  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 342 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF9A0 size 20
+  $0045947D  TCLIPBRDITEMBODY__ACQUIREFROMCLIPBOARD,  line 127 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F455  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 342 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF940 size 20
+  $00459458  TCLIPBRDITEMBODY__ACQUIREFROMCLIPBOARD,  line 126 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F455  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 342 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF8E0 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF880 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF640 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7C6DE8 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7D6CC8 size 32
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC0F7  TTHREADEX__INTERNALPROCESSMESSAGE,  line 481 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7C6D58 size 58
+  $004594AE  TCLIPBRDITEMBODY__ACQUIREFROMCLIPBOARD,  line 133 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F455  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 342 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF820 size 20
+  $0045948B  TCLIPBRDITEMBODY__ACQUIREFROMCLIPBOARD,  line 128 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F455  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 342 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B89BC68 size 86
+  $0045947D  TCLIPBRDITEMBODY__ACQUIREFROMCLIPBOARD,  line 127 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F455  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 342 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF7C0 size 20
+  $00459458  TCLIPBRDITEMBODY__ACQUIREFROMCLIPBOARD,  line 126 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F455  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 342 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF760 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF700 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF6A0 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7C6CC8 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7D6B78 size 32
+  $0066F44A  TCLIPBOARDITEM__CREATEFROMCLIPBOARD,  line 341 of ./Clipboard/Clipboard.List.pas
+  $00670474  TCLIPBOARDLIST__ADDFROMCLIPBOARD,  line 598 of ./Clipboard/Clipboard.List.pas
+  $004586D2  TCLIPBOARDMANAGER__CLIPBOARDCHANGED,  line 222 of ./Clipboard/Clipboard.Manager.pas
+  $005BC663  TTHREADMETHODCONTAINER__EXECUTE,  line 660 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBCC1  TTHREADEX__HANDLETHREADMESSAGE,  line 367 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC0F7  TTHREADEX__INTERNALPROCESSMESSAGE,  line 481 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7D6C58 size 30
+  $0040C47A
+  $005B03CB  assign,  line 314 of ./Settings/SettingsManager.pas
+  $006709E6  TCLIPBOARDWINDOW__SETTINGSCHANGED,  line 127 of ./ClipboardWindow/ClipboardWindow.pas
+  $005BCB09  TTHREADMETHODPARAMCONTAINER$1$CRCF1763792__EXECUTE,  line 677 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC69F  TTHREADMETHODPARAMOBJECTCONTAINER__EXECUTE,  line 722 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBB3D  TBASICTHREADWITHCALLBACKWND__HANDLECALLBACKMESSAGE,  line 332 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7D6BE8 size 30
+  $0040C47A
+  $005B03CB  assign,  line 314 of ./Settings/SettingsManager.pas
+  $00670980  TCLIPBOARDWINDOW__SETTINGSCHANGED,  line 124 of ./ClipboardWindow/ClipboardWindow.pas
+  $005BCB09  TTHREADMETHODPARAMCONTAINER$1$CRCF1763792__EXECUTE,  line 677 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC69F  TTHREADMETHODPARAMOBJECTCONTAINER__EXECUTE,  line 722 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBB3D  TBASICTHREADWITHCALLBACKWND__HANDLECALLBACKMESSAGE,  line 332 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7E6398 size 208
+  $00670833  TCLIPBOARDWINDOW__SETTINGSCHANGED,  line 106 of ./ClipboardWindow/ClipboardWindow.pas
+  $005BCB09  TTHREADMETHODPARAMCONTAINER$1$CRCF1763792__EXECUTE,  line 677 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC69F  TTHREADMETHODPARAMOBJECTCONTAINER__EXECUTE,  line 722 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBAA5  TBASICTHREADWITHCALLBACKWND__EXECFUNC,  line 318 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBE31  TTHREADEX__EXECFUNC,  line 419 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BBB3D  TBASICTHREADWITHCALLBACKWND__HANDLECALLBACKMESSAGE,  line 332 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0042C7D2  THREADSAFEWINDOWPROC,  line 164 of C:/Delphi/LibsForLaz/ToolBox.pas
+  $74B2E0BB
+Call trace for block $0B7DF520 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF4C0 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF460 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7C6BA8 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7D6948 size 32
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+Call trace for block $0B7DF400 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF3A0 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF340 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7C6B18 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7D68D8 size 32
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+Call trace for block $0B7DF2E0 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF280 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF220 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7C6A88 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7D6868 size 32
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+Call trace for block $0B7DF1C0 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF160 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF100 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7C69F8 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7D67F8 size 32
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+Call trace for block $0B7DF0A0 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DF040 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DEFE0 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7C6968 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7D6788 size 32
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+Call trace for block $0B7DEF80 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DEF20 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DEEC0 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7C68D8 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7D6718 size 32
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+Call trace for block $0B7DEE60 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DEE00 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DEDA0 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7C6848 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7D66A8 size 32
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+Call trace for block $0B7DED40 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DECE0 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DEC80 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7C67B8 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7D6638 size 32
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+Call trace for block $0B7DEC20 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DEBC0 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DEB60 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7C6728 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7D65C8 size 32
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+Call trace for block $0B7DEB00 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DEAA0 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DEA40 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7C6698 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7D6558 size 32
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+Call trace for block $0B7DE9E0 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DE980 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DE4A0 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7C6608 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7D64E8 size 32
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+Call trace for block $0B7DE920 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DE8C0 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DE860 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7C6578 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7D6478 size 32
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+Call trace for block $0B7DE800 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DE7A0 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DE740 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7C64E8 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7D6408 size 32
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+Call trace for block $0B7DE6E0 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DE680 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DE620 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7C6458 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7D6398 size 32
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+Call trace for block $0B7DE5C0 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DE560 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DE500 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7C63C8 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7D6328 size 32
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+Call trace for block $0B7DE440 size 24
+  $0045923F  TCLIPBRDITEMBODY__CREATE,  line 62 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DE3E0 size 24
+  $0045922A  TCLIPBRDITEMBODY__CREATE,  line 60 of ./Clipboard/Clipboard.Item.Body.pas
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+Call trace for block $0B7DE380 size 20
+  $0066F2FE  TCLIPBOARDITEM__CREATE,  line 329 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7C6338 size 72
+  $0066F2E9  TCLIPBOARDITEM__CREATE,  line 328 of ./Clipboard/Clipboard.List.pas
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+Call trace for block $0B7D62B8 size 32
+  $0066F3B1  TCLIPBOARDITEM__CREATEFROMHEADERSTREAM,  line 334 of ./Clipboard/Clipboard.List.pas
+  $0067018D  TCLIPBOARDLIST__LOADITEMS,  line 575 of ./Clipboard/Clipboard.List.pas
+  $00670362  TCLIPBOARDLIST__LOADITEMS,  line 584 of ./Clipboard/Clipboard.List.pas
+  $0066FF8D  TCLIPBOARDLIST__CREATE,  line 548 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+Call trace for block $0B7DE320 size 12
+  $0066FF7A  TCLIPBOARDLIST__CREATE,  line 547 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+  $76F94A77
+  $76F94A47
+  $BAADF00D
+Call trace for block $0B7F62A8 size 75
+  $0066FF68  TCLIPBOARDLIST__CREATE,  line 547 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+  $76F94A77
+  $76F94A47
+  $BAADF00D
+Call trace for block $0B7DE2C0 size 12
+  $0066FE6C  TCLIPBOARDLIST__CREATE,  line 532 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+  $76F94A77
+  $76F94A47
+  $BAADF00D
+Call trace for block $0B7E6278 size 76
+  $0066FE5A  TCLIPBOARDLIST__CREATE,  line 532 of ./Clipboard/Clipboard.List.pas
+  $00458AAD  TCLIPBOARDMANAGER__THREADINTERNALCREATE,  line 319 of ./Clipboard/Clipboard.Manager.pas
+  $005BCA75  TBASICTHREAD__THREADFUNC,  line 812 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+  $76F94A77
+  $76F94A47
+  $BAADF00D
+Call trace for block $0B871610 size 32
+  $0044F8EC  TDEBUGLOG__ADD,  line 247 of Logging.pas
+  $0044F80D  TDEBUGLOG__ENDTHREAD,  line 236 of Logging.pas
+  $00671519  TCLIPBOARDWINDOW__THREADINTERNALDESTROY,  line 329 of ./ClipboardWindow/ClipboardWindow.pas
+  $005BCAB9  TBASICTHREAD__THREADFUNC,  line 816 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+  $76F94A77
+  $76F94A47
+Call trace for block $139025D0 size 132
+  $0044F7FD  TDEBUGLOG__ENDTHREAD,  line 236 of Logging.pas
+  $00671519  TCLIPBOARDWINDOW__THREADINTERNALDESTROY,  line 329 of ./ClipboardWindow/ClipboardWindow.pas
+  $005BCAB9  TBASICTHREAD__THREADFUNC,  line 816 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $0041249E
+  $73D28654
+  $76F94A77
+  $76F94A47
+  $0045D405  TBASICANIMATEDWINDOW__STARTANIMATIONLOOP,  line 81 of ./ClipboardWindow/BasicAnimatedWindow.pas
+Call trace for block $138BEBF0 size 20
+  $005BB843  TBASICTHREADWITHCALLBACKWND__PREPARECONTAINERCLASS,  line 271 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC436  TTHREADEX__DOTHREADPROCDELAYED,  line 588 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $00671018  TCLIPBOARDWINDOW__ONSTOPSCROLLANIMATION,  line 227 of ./ClipboardWindow/ClipboardWindow.pas
+  $00675A69  TBASEANIMATION__DOSTOP,  line 400 of ./ClipboardWindow/ParametricAnimation.pas
+  $006759F4  TBASEANIMATION__MAKETIMESTEP,  line 385 of ./ClipboardWindow/ParametricAnimation.pas
+  $00675102  TANIMATIONCONTROLLER__TICK,  line 207 of ./ClipboardWindow/ParametricAnimation.pas
+  $0045D397  TBASICANIMATEDWINDOW__ANIMATIONLOOP,  line 62 of ./ClipboardWindow/BasicAnimatedWindow.pas
+  $0045D405  TBASICANIMATEDWINDOW__STARTANIMATIONLOOP,  line 81 of ./ClipboardWindow/BasicAnimatedWindow.pas
+Call trace for block $138BECB0 size 20
+  $005BB843  TBASICTHREADWITHCALLBACKWND__PREPARECONTAINERCLASS,  line 271 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC436  TTHREADEX__DOTHREADPROCDELAYED,  line 588 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $00671018  TCLIPBOARDWINDOW__ONSTOPSCROLLANIMATION,  line 227 of ./ClipboardWindow/ClipboardWindow.pas
+  $00675A69  TBASEANIMATION__DOSTOP,  line 400 of ./ClipboardWindow/ParametricAnimation.pas
+  $006759F4  TBASEANIMATION__MAKETIMESTEP,  line 385 of ./ClipboardWindow/ParametricAnimation.pas
+  $00675102  TANIMATIONCONTROLLER__TICK,  line 207 of ./ClipboardWindow/ParametricAnimation.pas
+  $0045D397  TBASICANIMATEDWINDOW__ANIMATIONLOOP,  line 62 of ./ClipboardWindow/BasicAnimatedWindow.pas
+  $0045D405  TBASICANIMATEDWINDOW__STARTANIMATIONLOOP,  line 81 of ./ClipboardWindow/BasicAnimatedWindow.pas
+Call trace for block $138BEC50 size 20
+  $005BB843  TBASICTHREADWITHCALLBACKWND__PREPARECONTAINERCLASS,  line 271 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC436  TTHREADEX__DOTHREADPROCDELAYED,  line 588 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $00671018  TCLIPBOARDWINDOW__ONSTOPSCROLLANIMATION,  line 227 of ./ClipboardWindow/ClipboardWindow.pas
+  $00675A69  TBASEANIMATION__DOSTOP,  line 400 of ./ClipboardWindow/ParametricAnimation.pas
+  $006759F4  TBASEANIMATION__MAKETIMESTEP,  line 385 of ./ClipboardWindow/ParametricAnimation.pas
+  $00675102  TANIMATIONCONTROLLER__TICK,  line 207 of ./ClipboardWindow/ParametricAnimation.pas
+  $0045D397  TBASICANIMATEDWINDOW__ANIMATIONLOOP,  line 62 of ./ClipboardWindow/BasicAnimatedWindow.pas
+  $0045D405  TBASICANIMATEDWINDOW__STARTANIMATIONLOOP,  line 81 of ./ClipboardWindow/BasicAnimatedWindow.pas
+Call trace for block $138BEAD0 size 20
+  $005BB843  TBASICTHREADWITHCALLBACKWND__PREPARECONTAINERCLASS,  line 271 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC436  TTHREADEX__DOTHREADPROCDELAYED,  line 588 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $00671018  TCLIPBOARDWINDOW__ONSTOPSCROLLANIMATION,  line 227 of ./ClipboardWindow/ClipboardWindow.pas
+  $00675A69  TBASEANIMATION__DOSTOP,  line 400 of ./ClipboardWindow/ParametricAnimation.pas
+  $006759F4  TBASEANIMATION__MAKETIMESTEP,  line 385 of ./ClipboardWindow/ParametricAnimation.pas
+  $00675102  TANIMATIONCONTROLLER__TICK,  line 207 of ./ClipboardWindow/ParametricAnimation.pas
+  $0045D397  TBASICANIMATEDWINDOW__ANIMATIONLOOP,  line 62 of ./ClipboardWindow/BasicAnimatedWindow.pas
+  $0045D405  TBASICANIMATEDWINDOW__STARTANIMATIONLOOP,  line 81 of ./ClipboardWindow/BasicAnimatedWindow.pas
+Call trace for block $138BEB90 size 20
+  $005BB843  TBASICTHREADWITHCALLBACKWND__PREPARECONTAINERCLASS,  line 271 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC436  TTHREADEX__DOTHREADPROCDELAYED,  line 588 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $00671018  TCLIPBOARDWINDOW__ONSTOPSCROLLANIMATION,  line 227 of ./ClipboardWindow/ClipboardWindow.pas
+  $00675A69  TBASEANIMATION__DOSTOP,  line 400 of ./ClipboardWindow/ParametricAnimation.pas
+  $006759F4  TBASEANIMATION__MAKETIMESTEP,  line 385 of ./ClipboardWindow/ParametricAnimation.pas
+  $00675102  TANIMATIONCONTROLLER__TICK,  line 207 of ./ClipboardWindow/ParametricAnimation.pas
+  $0045D397  TBASICANIMATEDWINDOW__ANIMATIONLOOP,  line 62 of ./ClipboardWindow/BasicAnimatedWindow.pas
+  $0045D405  TBASICANIMATEDWINDOW__STARTANIMATIONLOOP,  line 81 of ./ClipboardWindow/BasicAnimatedWindow.pas
+Call trace for block $138BEB30 size 20
+  $005BB843  TBASICTHREADWITHCALLBACKWND__PREPARECONTAINERCLASS,  line 271 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005BC436  TTHREADEX__DOTHREADPROCDELAYED,  line 588 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $00671018  TCLIPBOARDWINDOW__ONSTOPSCROLLANIMATION,  line 227 of ./ClipboardWindow/ClipboardWindow.pas
+  $00675A69  TBASEANIMATION__DOSTOP,  line 400 of ./ClipboardWindow/ParametricAnimation.pas
+  $006759F4  TBASEANIMATION__MAKETIMESTEP,  line 385 of ./ClipboardWindow/ParametricAnimation.pas
+  $00675102  TANIMATIONCONTROLLER__TICK,  line 207 of ./ClipboardWindow/ParametricAnimation.pas
+  $0045D397  TBASICANIMATEDWINDOW__ANIMATIONLOOP,  line 62 of ./ClipboardWindow/BasicAnimatedWindow.pas
+  $0045D405  TBASICANIMATEDWINDOW__STARTANIMATIONLOOP,  line 81 of ./ClipboardWindow/BasicAnimatedWindow.pas
+Call trace for block $0A157CA0 size 32
+  $0044F8EC  TDEBUGLOG__ADD,  line 247 of Logging.pas
+  $004574E0  TMOUSEBEHAVIOURMANAGER__DESTROY,  line 282 of mousebehaviour.pas
+  $0040E372
+  $0042AAF3  TFRM_SETTINGS__FORMDESTROY,  line 649 of unit1.pas
+  $0041CAC5
+  $0041B710
+  $0041B73C
+  $0040E372
+Call trace for block $0A158E20 size 32
+  $0044F8EC  TDEBUGLOG__ADD,  line 247 of Logging.pas
+  $004574B1  TMOUSEBEHAVIOURMANAGER__DESTROY,  line 280 of mousebehaviour.pas
+  $0040E372
+  $0042AAF3  TFRM_SETTINGS__FORMDESTROY,  line 649 of unit1.pas
+  $0041CAC5
+  $0041B710
+  $0041B73C
+  $0040E372
+Call trace for block $0A17F618 size 32
+  $0044F8EC  TDEBUGLOG__ADD,  line 247 of Logging.pas
+  $0044D98C  TPATCHER__SETPATCHENABLEDGETCLIPBOARDDATA,  line 143 of ./Patcher/LivePatching.pas
+  $004581FB  TCLIPBOARDBASE__DESTROY,  line 191 of ./Clipboard/Clipboard.Notifications.pas
+  $00458E62  TCLIPBOARDMANAGER__DESTROY,  line 393 of ./Clipboard/Clipboard.Manager.pas
+  $0040E372
+  $0042AACB  TFRM_SETTINGS__FORMDESTROY,  line 643 of unit1.pas
+  $0041CAC5
+  $0041B710
+Call trace for block $0A159130 size 32
+  $0044F8EC  TDEBUGLOG__ADD,  line 247 of Logging.pas
+  $0044CD4F  TSHELLNOTIFICATION__DESTROY,  line 104 of ShellNotification.pas
+  $0040E372
+  $0044DD26  TPATCHER__UNPATCHALLPROCESSES,  line 289 of ./Patcher/LivePatching.pas
+  $0044D978  TPATCHER__SETPATCHENABLEDGETCLIPBOARDDATA,  line 142 of ./Patcher/LivePatching.pas
+  $004581FB  TCLIPBOARDBASE__DESTROY,  line 191 of ./Clipboard/Clipboard.Notifications.pas
+  $00458E62  TCLIPBOARDMANAGER__DESTROY,  line 393 of ./Clipboard/Clipboard.Manager.pas
+  $0040E372
+Call trace for block $03FE2A90 size 32
+  $0044F8EC  TDEBUGLOG__ADD,  line 247 of Logging.pas
+  $0044F80D  TDEBUGLOG__ENDTHREAD,  line 236 of Logging.pas
+  $004581EF  TCLIPBOARDBASE__DESTROY,  line 190 of ./Clipboard/Clipboard.Notifications.pas
+  $00458E62  TCLIPBOARDMANAGER__DESTROY,  line 393 of ./Clipboard/Clipboard.Manager.pas
+  $0040E372
+  $0042AACB  TFRM_SETTINGS__FORMDESTROY,  line 643 of unit1.pas
+  $0041CAC5
+  $0041B710
+Call trace for block $0406FD80 size 132
+  $0044F7FD  TDEBUGLOG__ENDTHREAD,  line 236 of Logging.pas
+  $004581EF  TCLIPBOARDBASE__DESTROY,  line 190 of ./Clipboard/Clipboard.Notifications.pas
+  $00458E62  TCLIPBOARDMANAGER__DESTROY,  line 393 of ./Clipboard/Clipboard.Manager.pas
+  $0040E372
+  $0042AACB  TFRM_SETTINGS__FORMDESTROY,  line 643 of unit1.pas
+  $0041CAC5
+  $0041B710
+  $0041B73C
+Call trace for block $0A16B540 size 20
+  $0045A80A  THOTKEYMANAGER__REGISTERHOTKEYS,  line 178 of ./Hotkeys/Hotkey.Manager.pas
+  $0045A73F  THOTKEYMANAGER__SETACTIVE,  line 160 of ./Hotkeys/Hotkey.Manager.pas
+  $0042959A  TFRM_SETTINGS__FORMCREATE,  line 357 of unit1.pas
+  $0041C95D
+  $0041B374
+  $005BDB2F  TDPIAWAREFORM__AFTERCONSTRUCTION,  line 203 of dpiawareform.pas
+  $0042075F
+  $00426452
+Call trace for block $0A16A520 size 20
+  $0045A80A  THOTKEYMANAGER__REGISTERHOTKEYS,  line 178 of ./Hotkeys/Hotkey.Manager.pas
+  $0045A73F  THOTKEYMANAGER__SETACTIVE,  line 160 of ./Hotkeys/Hotkey.Manager.pas
+  $0042959A  TFRM_SETTINGS__FORMCREATE,  line 357 of unit1.pas
+  $0041C95D
+  $0041B374
+  $005BDB2F  TDPIAWAREFORM__AFTERCONSTRUCTION,  line 203 of dpiawareform.pas
+  $0042075F
+  $00426452
+Call trace for block $0A16A4C0 size 20
+  $0045A829  THOTKEYMANAGER__REGISTERHOTKEYS,  line 180 of ./Hotkeys/Hotkey.Manager.pas
+  $0045A73F  THOTKEYMANAGER__SETACTIVE,  line 160 of ./Hotkeys/Hotkey.Manager.pas
+  $0042959A  TFRM_SETTINGS__FORMCREATE,  line 357 of unit1.pas
+  $0041C95D
+  $0041B374
+  $005BDB2F  TDPIAWAREFORM__AFTERCONSTRUCTION,  line 203 of dpiawareform.pas
+  $0042075F
+  $00426452
+Call trace for block $0A16A820 size 20
+  $0045A80A  THOTKEYMANAGER__REGISTERHOTKEYS,  line 178 of ./Hotkeys/Hotkey.Manager.pas
+  $0045A73F  THOTKEYMANAGER__SETACTIVE,  line 160 of ./Hotkeys/Hotkey.Manager.pas
+  $0042959A  TFRM_SETTINGS__FORMCREATE,  line 357 of unit1.pas
+  $0041C95D
+  $0041B374
+  $005BDB2F  TDPIAWAREFORM__AFTERCONSTRUCTION,  line 203 of dpiawareform.pas
+  $0042075F
+  $00426452
+Call trace for block $0A16A7C0 size 24
+  $0045A792  THOTKEYMANAGER__REGISTERHOTKEYS,  line 170 of ./Hotkeys/Hotkey.Manager.pas
+  $0045A73F  THOTKEYMANAGER__SETACTIVE,  line 160 of ./Hotkeys/Hotkey.Manager.pas
+  $0042959A  TFRM_SETTINGS__FORMCREATE,  line 357 of unit1.pas
+  $0041C95D
+  $0041B374
+  $005BDB2F  TDPIAWAREFORM__AFTERCONSTRUCTION,  line 203 of dpiawareform.pas
+  $0042075F
+  $00426452
+Call trace for block $03FF9018 size 48
+  $005BC550  TTHREADEX__CREATE,  line 640 of C:/Delphi/LibsForLaz/ExtendedThreads.pas
+  $005B7F11  TUSERINPUTPROVIDER__CREATE,  line 357 of UserInputProvider.pas
+  $005B8D62  USERINPUTPROVIDER_$$_init$,  line 585 of UserInputProvider.pas
+  $004103D4
+  $BAADF00D
+  $BAADF00D
+  $BAADF00D
+  $BAADF00D
+Call trace for block $03FF8F98 size 48
+  $005B7EFC  TUSERINPUTPROVIDER__CREATE,  line 358 of UserInputProvider.pas
+  $005B8D62  USERINPUTPROVIDER_$$_init$,  line 585 of UserInputProvider.pas
+  $004103D4
+  $BAADF00D
+  $BAADF00D
+  $BAADF00D
+  $BAADF00D
+  $BAADF00D
+Call trace for block $03FF8D98 size 56
+  $005B8D62  USERINPUTPROVIDER_$$_init$,  line 585 of UserInputProvider.pas
+  $004103D4
+  $BAADF00D
+  $BAADF00D
+  $BAADF00D
+  $BAADF00D
+  $BAADF00D
+  $BAADF00D

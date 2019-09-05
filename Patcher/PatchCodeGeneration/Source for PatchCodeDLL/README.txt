@@ -1,0 +1,1 @@
+Extract the byte-code from the dll via OllyDebug or PE-Explorer (64bit)

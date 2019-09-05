@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.0.0\bin\i386-Win32\fpc.exe" Date="1198546589"/>
+  <Params Value=" -Twin64 -Px86_64 -MDelphi -Scghi -CX -O3 -XX -WG -l -vewnhibq &quot;-FuC:\Delphi\Sinnvolles\FensterToolsLazarus\Patcher\PatchCodeGeneration\Source for PatchCodeDLL\Lazarus-Project (x64)\&quot; Hook.lpr"/>
+</CONFIG>

@@ -1,0 +1,11 @@
+Windows 7:
+
+- all mouse wheel events are delivered to the focus window -> using mouse_event would deliver the message again to the focus window and NOT to the window under the mouse pointer because you can't specify a target window handle in mouse_event (or SendInput)
+- thatswhy we use PostMessage to deliver the scroll message to the window under mouse pointer
+
+Windows 10:
+- using PostMessage to deliver scroll messages work fine in Desktop Applications but not in WinRT (WindowsStore Apps), cause it uses a completely different API.
+- thus we must inject mouse events at a deeper layer, so we use mouse_event (better: SendInput) to simulate scrolling directly invoked by the mouse driver
+- FensterTools detects LLMHF_INJECTED flag and doesn't reprocess this mouse event (prevents endless loop)
+- delivering scroll messages to the window under mouse pointer by FensterTools is no longer needed, Windows 10 by defaul delivers mouse wheel events to the window under the mouse pointer
+

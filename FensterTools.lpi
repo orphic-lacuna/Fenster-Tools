@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="10"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="FensterTools"/>
+      <ResourceType Value="res"/>
+      <Icon Value="0"/>
+    </General>
+    <LazDoc Paths="docs"/>
+    <i18n>
+      <OutDir Value="languages"/>
+    </i18n>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <MajorVersionNr Value="5"/>
+      <RevisionNr Value="9"/>
+      <BuildNr Value="4"/>
+      <Language Value="0407"/>
+    </VersionInfo>
+    <BuildModes Count="5">
+      <Item1 Name="Default" Default="True"/>
+      <Item2 Name="Debug">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="FensterTools"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir);Service"/>
+            <OtherUnitFiles Value="$(ProjDir)\MouseHook;$(ProjDir)\Patcher;..\..\LibsForLaz;..\..\LibsForLaz\PerlRegEx;..\..\LibsForLaz\PerlRegEx\pcre;Settings;Service;Direct2D\Header;Direct2D;ClipboardWindow;Clipboard;Hotkeys;ClipboardInspector"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <Parsing>
+            <SyntaxOptions>
+              <IncludeAssertionCode Value="True"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <Checks>
+              <IOChecks Value="True"/>
+              <RangeChecks Value="True"/>
+              <OverflowChecks Value="True"/>
+              <StackChecks Value="True"/>
+            </Checks>
+            <TargetCPU Value="i386"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <UseHeaptrc Value="True"/>
+            </Debugging>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <CompilerMessages>
+              <IgnoredMessages idx2005="True"/>
+            </CompilerMessages>
+            <ExecuteBefore>
+              <Command Value="C:\Delphi\Sinnvolles\FensterToolsLazarus\CurrentDate\CurrentDate.exe CompileDate.inc"/>
+            </ExecuteBefore>
+          </Other>
+        </CompilerOptions>
+      </Item2>
+      <Item3 Name="Testrelease">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="FensterTools"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir);Service"/>
+            <OtherUnitFiles Value="$(ProjDir)\MouseHook;$(ProjDir)\Patcher;..\..\LibsForLaz;..\..\LibsForLaz\PerlRegEx;..\..\LibsForLaz\PerlRegEx\pcre;Settings;Service;Direct2D\Header;Direct2D;ClipboardWindow;Clipboard"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <Parsing>
+            <SyntaxOptions>
+              <IncludeAssertionCode Value="True"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <Checks>
+              <IOChecks Value="True"/>
+              <RangeChecks Value="True"/>
+              <OverflowChecks Value="True"/>
+              <StackChecks Value="True"/>
+            </Checks>
+            <TargetCPU Value="i386"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+              <UseLineInfoUnit Value="False"/>
+              <StripSymbols Value="True"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <CompilerMessages>
+              <IgnoredMessages idx2005="True"/>
+            </CompilerMessages>
+            <ExecuteBefore>
+              <Command Value="C:\Delphi\Sinnvolles\FensterToolsLazarus\CurrentDate\CurrentDate.exe CompileDate.inc"/>
+              <CompileReasons Run="False"/>
+            </ExecuteBefore>
+            <ExecuteAfter>
+              <Command Value="C:\lazarus1.6\fpc\3.0.0\bin\i386-win32\strip.exe -s FensterTools.exe"/>
+              <CompileReasons Run="False"/>
+            </ExecuteAfter>
+          </Other>
+        </CompilerOptions>
+      </Item3>
+      <Item4 Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="FensterTools"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir);Service"/>
+            <OtherUnitFiles Value="$(ProjDir)\MouseHook;$(ProjDir)\Patcher;..\..\LibsForLaz;..\..\LibsForLaz\PerlRegEx;..\..\LibsForLaz\PerlRegEx\pcre;Settings;Service;Direct2D\Header;Direct2D;ClipboardWindow;Clipboard"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <TargetCPU Value="i386"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+              <UseLineInfoUnit Value="False"/>
+              <StripSymbols Value="True"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <ExecuteBefore>
+              <Command Value="C:\Delphi\Sinnvolles\FensterToolsLazarus\CurrentDate\CurrentDate.exe CompileDate.inc"/>
+            </ExecuteBefore>
+          </Other>
+        </CompilerOptions>
+      </Item4>
+      <Item5 Name="Release, Logging">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="FensterToolsLog"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir);Service"/>
+            <OtherUnitFiles Value="$(ProjDir)\MouseHook;$(ProjDir)\Patcher;..\..\LibsForLaz;..\..\LibsForLaz\PerlRegEx;..\..\LibsForLaz\PerlRegEx\pcre;Settings;Service;Direct2D\Header;Direct2D;ClipboardWindow;Clipboard"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <TargetCPU Value="i386"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+              <UseLineInfoUnit Value="False"/>
+              <StripSymbols Value="True"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <ExecuteBefore>
+              <Command Value="C:\Delphi\Sinnvolles\FensterToolsLazarus\CurrentDate\CurrentDate.exe CompileDate.inc"/>
+            </ExecuteBefore>
+          </Other>
+        </CompilerOptions>
+      </Item5>
+      <SharedMatrixOptions Count="3">
+        <Item1 ID="817252358868" Targets="#project,FensterToolsControls" Modes="Debug,Testrelease,Default" Value="-dDebug"/>
+        <Item2 ID="583815116019" Targets="#project,FensterToolsControls" Modes="Default,Debug,Testrelease,Release,, Logging" Value="-dLogging"/>
+        <Item3 ID="977088441518" Targets="#project,FensterToolsControls" Modes="Release,Testrelease,Release,, Logging" Value="-dReleaseMode"/>
+      </SharedMatrixOptions>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="9">
+      <Item1>
+        <PackageName Value="LibreSSL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="ListviewExtensions"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FensterToolsControls"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="bgracontrols"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="LazControls"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="IDEIntf"/>
+      </Item6>
+      <Item7>
+        <PackageName Value="MemDSLaz"/>
+      </Item7>
+      <Item8>
+        <PackageName Value="FCL"/>
+      </Item8>
+      <Item9>
+        <PackageName Value="LCL"/>
+      </Item9>
+    </RequiredPackages>
+    <Units Count="89">
+      <Unit0>
+        <Filename Value="FensterTools.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frm_Settings"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="FensterToolsCommon.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="AdminCheck.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="MouseHook\KineticScrolling.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="Patcher\LivePatching.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="ShellNotification.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="Replacer.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="Textfenster.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="Regeleditor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frm_Regeleditor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="Logging.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="DebugConsole.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frm_DebugConsole"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="Manifest.rc"/>
+        <IsPartOfProject Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="WindowManager.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="ApplicationRestart.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="Settings\SettingsBaseTypes.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="Settings\SettingsBase.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="Settings\SettingsManager.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\..\LibsForLaz\PropertyList.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="Settings\DefaultConfig.json.txt"/>
+        <IsPartOfProject Value="True"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="Settings\DefaultConfig.rc"/>
+        <IsPartOfProject Value="True"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="Settings\SettingsBoundaries.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="serviceconnection.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ServiceConnection"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="UpdateCheck.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="Service\UpdateInformation.inc"/>
+        <IsPartOfProject Value="True"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\..\LibsForLaz\ToolBox.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="Service\HelperSvcDefinitions.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="..\..\LibsForLaz\AsyncHTTPRequest.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="KeyPatternMatching.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="mousebehaviour.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="MouseBehaviour"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="Direct2D\Header\DX12.D2D1.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="Direct2D\Header\DX12.D2D1_3.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="Direct2D\Header\DX12.D2D1Effects2.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="Direct2D\Header\DX12.D3D10.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="Direct2D\Header\DX12.D3D10_1.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="Direct2D\Header\DX12.D3D11.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="Direct2D\Header\DX12.D3D11_1.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="Direct2D\Header\DX12.D3D11_2.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="Direct2D\Header\DX12.D3D11_3.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="Direct2D\Header\DX12.D3D11On12.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="Direct2D\Header\DX12.D3D12.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="Direct2D\Header\DX12.D3D12SDKLayers.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="Direct2D\Header\DX12.D3D12Shader.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="Direct2D\Header\DX12.D3DCommon.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="Direct2D\Header\DX12.D3DCompiler.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="Direct2D\Header\DX12.D3DCSX.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="Direct2D\Header\DX12.D3DX10.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="Direct2D\Header\DX12.D3DX11.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="Direct2D\Header\DX12.DCommon.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="Direct2D\Header\DX12.DocumentTarget.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="Direct2D\Header\DX12.DWrite.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="Direct2D\Header\DX12.DWrite3.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="Direct2D\Header\DX12.DXGI.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="Direct2D\Header\DX12.DXGI1_2.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="Direct2D\Header\DX12.DXGI1_3.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="Direct2D\Header\DX12.DXGI1_4.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="Direct2D\Header\DX12.DXGIDebug.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="Direct2D\Header\DX12.DXGIMessages.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="Direct2D\Header\DX12.DXProgrammableCapture.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="Direct2D\Header\DX12.OCIdl.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="Direct2D\Header\DX12.WinCodec.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit60>
+      <Unit61>
+        <Filename Value="Direct2D\Direct2DRenderer.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit61>
+      <Unit62>
+        <Filename Value="ClipboardWindow\ClipboardWindow.Entry.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit62>
+      <Unit63>
+        <Filename Value="ClipboardWindow\ClipboardWindow.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit63>
+      <Unit64>
+        <Filename Value="ClipboardWindow\ClipboardWindow.Renderer.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="ClipboardWindow\ParametricAnimation.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="parametricanimation"/>
+      </Unit65>
+      <Unit66>
+        <Filename Value="Clipboard\Clipboard.Formats.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit66>
+      <Unit67>
+        <Filename Value="Clipboard\Clipboard.List.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit67>
+      <Unit68>
+        <Filename Value="Clipboard\Clipboard.Notifications.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit68>
+      <Unit69>
+        <Filename Value="Clipboard\LinkedLists.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit69>
+      <Unit70>
+        <Filename Value="Clipboard\Clipboard.Manager.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit70>
+      <Unit71>
+        <Filename Value="Clipboard\Clipboard.Item.Header.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit71>
+      <Unit72>
+        <Filename Value="Clipboard\Clipboard.Item.Body.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit72>
+      <Unit73>
+        <Filename Value="Plan_für_Hotkeys.txt"/>
+        <IsPartOfProject Value="True"/>
+      </Unit73>
+      <Unit74>
+        <Filename Value="Hotkeys\Hotkey.Actions.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit74>
+      <Unit75>
+        <Filename Value="Hotkeys\Hotkey.Manager.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit75>
+      <Unit76>
+        <Filename Value="Hotkeys\Hotkey.List.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit76>
+      <Unit77>
+        <Filename Value="..\..\LibsForLaz\ThreadCollections.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit77>
+      <Unit78>
+        <Filename Value="ClipboardInspector\ClipboardInspector.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frm_ClipboardInspector"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit78>
+      <Unit79>
+        <Filename Value="ClipboardWindow\BasicWindow.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit79>
+      <Unit80>
+        <Filename Value="ClipboardWindow\AppFileInfo.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit80>
+      <Unit81>
+        <Filename Value="ClipboardWindow\ClipboardWindow.RenderingInfo.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit81>
+      <Unit82>
+        <Filename Value="ClipboardWindow\BasicAnimatedWindow.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit82>
+      <Unit83>
+        <Filename Value="Direct2D\LayeredWindowRenderer.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit83>
+      <Unit84>
+        <Filename Value="ClipboardWindow\ClipboardStatusWindow.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit84>
+      <Unit85>
+        <Filename Value="ClipboardWindow\ClipboardStatusWindow.Renderer.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit85>
+      <Unit86>
+        <Filename Value="ClipboardWindow\ClipboardWindow.Settings.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit86>
+      <Unit87>
+        <Filename Value="Settings\SettingsDerivedBaseTypes.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit87>
+      <Unit88>
+        <Filename Value="ClipboardWindow\ClipboardStatusWindow.Settings.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit88>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="FensterTools"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir);Service"/>
+      <OtherUnitFiles Value="$(ProjDir)\MouseHook;$(ProjDir)\Patcher;..\..\LibsForLaz;..\..\LibsForLaz\PerlRegEx;..\..\LibsForLaz\PerlRegEx\pcre;Settings;Service;Direct2D\Header;Direct2D;ClipboardWindow;Clipboard"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <IncludeAssertionCode Value="True"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+      <TargetCPU Value="i386"/>
+      <Optimizations>
+        <OptimizationLevel Value="2"/>
+      </Optimizations>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <UseHeaptrc Value="True"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <ExecuteBefore>
+        <Command Value="C:\Delphi\Sinnvolles\FensterToolsLazarus\CurrentDate\CurrentDate.exe CompileDate.inc"/>
+      </ExecuteBefore>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="4">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+      <Item4>
+        <Name Value="EJSON"/>
+      </Item4>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

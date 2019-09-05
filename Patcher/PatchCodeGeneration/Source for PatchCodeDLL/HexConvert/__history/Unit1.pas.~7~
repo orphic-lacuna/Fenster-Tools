@@ -1,0 +1,49 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, strutils;
+
+type
+  TForm1 = class(TForm)
+    Memo1: TMemo;
+    Button1: TButton;
+    Memo2: TMemo;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private-Deklarationen }
+  public
+    { Public-Deklarationen }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  i: INteger;
+begin
+  Memo1.Lines.Text := StringReplace(Memo1.Lines.Text, '#32', '', [rfReplaceAll]);
+  Memo1.Lines.Text := StringReplace(Memo1.Lines.Text, #13, '', [rfReplaceAll]);
+  Memo1.Lines.Text := StringReplace(Memo1.Lines.Text, #10, '', [rfReplaceAll]);
+  Memo1.Lines.Text := StringReplace(Memo1.Lines.Text, '#9', '', [rfReplaceAll]);
+  Memo2.Lines.Text := '$';
+  for I := 1 to Length(Memo1.Lines.Text) do
+  begin
+    if (Memo1.Lines.Text[i] = #13) or (Memo1.Lines.Text[i] = #10) or (Memo1.Lines.Text[i] = #20) then continue;
+    Memo2.Lines.Text := Memo2.Lines.Text + Memo1.Lines.Text[i];
+    if i mod 2 = 0 then Memo2.Lines.Text := Memo2.Lines.Text + ',';
+    if i mod 40 = 0 then Memo2.Lines.Text := Memo2.Lines.Text + #13 + #10;
+    if i mod 2 = 0 then Memo2.Lines.Text := Memo2.Lines.Text + '$';
+  end;
+  Memo2.SelectAll;
+  Memo2.CopyToClipboard;
+end;
+
+end.
