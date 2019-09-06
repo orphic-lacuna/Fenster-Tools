@@ -1,4 +1,4 @@
-unit parametricanimation;
+unit ParametricAnimation;
 
 {$mode objfpc}{$H+}
 

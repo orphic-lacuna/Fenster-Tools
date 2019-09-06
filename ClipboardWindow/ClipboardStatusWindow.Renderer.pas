@@ -5,7 +5,7 @@ unit ClipboardStatusWindow.Renderer;
 interface
 
 uses
-  Classes, SysUtils, LayeredWindowRenderer, ClipboardStatusWindow.Settings;
+  Windows, Classes, SysUtils, LayeredWindowRenderer, ClipboardStatusWindow.Settings;
 
 type
 
@@ -48,8 +48,8 @@ end;
 
 procedure TCBStatusWndRenderer.DoRender;
 begin
-  RenderTarget.Clear(fSettings.WindowBackgroundColor);
-  RenderTarget.SetTransform(IdentityMatrix);
+  //RenderTarget.Clear(fSettings.WindowBackgroundColor);
+  //RenderTarget.SetTransform(IdentityMatrix);
 
 
 end;

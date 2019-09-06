@@ -9,7 +9,7 @@ unit ClipboardStatusWindow;
 interface
 
 uses
-  Classes, SysUtils, BasicAnimatedWindow, ClipboardStatusWindow.Settings, ClipboardStatusWindow.Renderer;
+  Windows, Classes, SysUtils, SettingsManager, BasicAnimatedWindow, ClipboardStatusWindow.Settings, ClipboardStatusWindow.Renderer{$IfDef Logging}, Logging{$EndIf};
 
 type
 

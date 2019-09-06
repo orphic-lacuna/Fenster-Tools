@@ -7,16 +7,16 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, lazcontrols, Windows, Unit1, FensterToolsCommon, ToolBox,
-  AsyncHTTPRequest, Classes, Sysutils, AdminCheck,
+  Forms, lazcontrols, Windows, Unit1, FensterToolsCommon,
+  Classes, Sysutils, AdminCheck,
   ShellNotification, Replacer, KineticScrolling,
   LivePatching,
   Regeleditor,
-  {$IfDef Logging}Logging, DebugConsole,{$EndIf}
+  {$IfDef Logging}DebugConsole,{$EndIf}
   WindowManager, ApplicationRestart, SettingsBaseTypes,
   SettingsBoundaries, ServiceConnection, KeyPatternMatching,
   MouseBehaviour, ToolBoxServices, Clipboard.Notifications, Clipboard.Manager, Clipboard.Item.Header, Clipboard.Item.Body, Hotkey.Actions,
-  Hotkey.Manager, Hotkey.List, ThreadCollections, ClipboardInspector, BasicWindow, AppFileInfo, BasicAnimatedWindow, LayeredWindowRenderer,
+  Hotkey.Manager, Hotkey.List, ClipboardInspector, BasicWindow, AppFileInfo, BasicAnimatedWindow, LayeredWindowRenderer,
   ClipboardStatusWindow, ClipboardStatusWindow.Renderer, ClipboardWindow.Settings, SettingsDerivedBaseTypes, unit2;
 
 {$R *.res}

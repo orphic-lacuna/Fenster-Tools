@@ -1,61 +1,64 @@
 object frm_ClipboardInspector: Tfrm_ClipboardInspector
-  Left = 365
-  Height = 604
-  Top = 138
-  Width = 768
+  Left = 581
+  Height = 1510
+  Top = 303
+  Width = 1920
   Caption = 'Clipboard Inspector'
-  ClientHeight = 604
-  ClientWidth = 768
-  LCLVersion = '1.6.0.4'
+  ClientHeight = 1510
+  ClientWidth = 1920
+  DesignTimePPI = 240
+  LCLVersion = '2.0.4.0'
   object ListView1: TListView
     AnchorSideLeft.Control = Owner
     AnchorSideTop.Control = Owner
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
-    Left = 8
-    Height = 446
-    Top = 8
-    Width = 752
+    Left = 20
+    Height = 1115
+    Top = 20
+    Width = 1880
     Anchors = [akTop, akLeft, akRight, akBottom]
-    BorderSpacing.Left = 8
-    BorderSpacing.Top = 8
-    BorderSpacing.Right = 8
+    BorderSpacing.Left = 20
+    BorderSpacing.Top = 20
+    BorderSpacing.Right = 20
     Columns = <    
       item
         AutoSize = True
         Caption = 'Index'
-        Width = 48
+        Width = 63
       end    
       item
         AutoSize = True
         Caption = 'Zeitstempel'
-        Width = 91
+        Width = 102
       end    
       item
         AutoSize = True
         Caption = 'Kopiert aus'
-        Width = 87
+        Width = 136
       end    
       item
         AutoSize = True
         Caption = 'Anzahl Formate'
-        Width = 116
+        Width = 136
       end    
       item
         AutoSize = True
         Caption = 'Anzahl Eingefügt'
-        Width = 125
+        Width = 136
       end    
       item
         Caption = 'Flags'
+        Width = 125
       end    
       item
         Caption = 'Gehört zu'
+        Width = 125
       end    
       item
         AutoSize = True
         Caption = 'Inhalt als String'
-        Width = 181
+        Width = 63
       end>
     Items.LazData = {
       8900000001000000FFFFFFFFFFFFFFFFFFFFFFFF060000000400000054657374
@@ -64,6 +67,7 @@ object frm_ClipboardInspector: Tfrm_ClipboardInspector
       6765350A00000045696E7472C3A4676536FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
       FFFFFFFFFFFFFFFFFF
     }
+    ParentFont = False
     ReadOnly = True
     RowSelect = True
     TabOrder = 0
@@ -71,13 +75,14 @@ object frm_ClipboardInspector: Tfrm_ClipboardInspector
     OnClick = ListView1Click
   end
   object Button1: TButton
-    Left = 312
-    Height = 33
-    Top = 328
-    Width = 84
+    Left = 780
+    Height = 82
+    Top = 820
+    Width = 210
     Anchors = [akLeft, akBottom]
     Caption = 'Refresh'
     OnClick = Button1Click
+    ParentFont = False
     TabOrder = 1
   end
   object GroupBox1: TGroupBox
@@ -86,16 +91,17 @@ object frm_ClipboardInspector: Tfrm_ClipboardInspector
     AnchorSideRight.Control = ListView1
     AnchorSideRight.Side = asrBottom
     AnchorSideBottom.Control = StatusBar1
-    Left = 8
-    Height = 105
-    Top = 462
-    Width = 752
+    Left = 20
+    Height = 279
+    Top = 1155
+    Width = 1880
     Anchors = [akTop, akLeft, akRight, akBottom]
-    BorderSpacing.Top = 8
-    BorderSpacing.Bottom = 8
+    BorderSpacing.Top = 20
+    BorderSpacing.Bottom = 20
     Caption = 'Anwendung'
-    ClientHeight = 80
-    ClientWidth = 748
+    ClientHeight = 233
+    ClientWidth = 1876
+    ParentFont = False
     TabOrder = 2
     object lblProductName: TLabel
       AnchorSideLeft.Control = PaintBox1
@@ -103,30 +109,33 @@ object frm_ClipboardInspector: Tfrm_ClipboardInspector
       AnchorSideTop.Control = PaintBox1
       AnchorSideRight.Control = GroupBox1
       AnchorSideRight.Side = asrBottom
-      Left = 152
-      Height = 20
-      Top = 8
-      Width = 588
+      Left = 380
+      Height = 50
+      Top = 20
+      Width = 1476
       Anchors = [akTop, akLeft, akRight]
       AutoSize = False
-      BorderSpacing.Left = 8
-      BorderSpacing.Right = 8
+      BorderSpacing.Left = 20
+      BorderSpacing.Right = 20
       Caption = 'lblProductName'
       ParentColor = False
+      ParentFont = False
     end
     object PaintBox1: TPaintBox
-      Left = 16
-      Height = 128
-      Top = 8
-      Width = 128
+      Left = 40
+      Height = 320
+      Top = 20
+      Width = 320
+      ParentFont = False
       OnPaint = PaintBox1Paint
     end
   end
   object StatusBar1: TStatusBar
     Left = 0
-    Height = 29
-    Top = 575
-    Width = 768
+    Height = 56
+    Top = 1454
+    Width = 1920
     Panels = <>
+    ParentFont = False
   end
 end
